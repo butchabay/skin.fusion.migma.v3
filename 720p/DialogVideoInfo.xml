@@ -379,7 +379,7 @@
 					<randomize>true</randomize>
 					<loop>yes</loop>
 					<aspectratio>scale</aspectratio>
-					<imagepath background=”true”>$INFO[ListItem.Path,,extrathumbs/]</imagepath>
+					<imagepath background="true">$INFO[ListItem.Path,,extrathumbs/]</imagepath>
 					<visible>Skin.HasSetting(InfoExtraThumbs)</visible>
 				</control>
 				<!-- episode icon -->

@@ -41,8 +41,8 @@
 		<texture>black.png</texture>
 		<colordiffuse>70FFFFFF</colordiffuse>
 	</control>
-	<!-- CUSTOM BACKGROUNDS -->
-	<!--BG Videos-->
+	<!--  CUSTOM BACKGROUNDS -->
+	<!-- BG Videos -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -67,7 +67,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(1)</visible>
 	</control>
-	<!--BG Movies-->
+	<!-- BG Movies -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -92,7 +92,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(2) | Container(540).HasFocus(14)</visible>
 	</control>
-	<!--BG TVShows-->
+	<!-- BG TVShows -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -117,7 +117,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(3)</visible>
 	</control>
-	<!--BG Music-->
+	<!-- BG Music -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -142,7 +142,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(4)</visible>
 	</control>
-	<!--BG Pictures-->
+	<!-- BG Pictures -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -167,7 +167,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(5)</visible>
 	</control>
-	<!--BG Programs-->
+	<!-- BG Programs -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -192,7 +192,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(10)</visible>
 	</control>
-	<!--BG Addons-->
+	<!-- BG Addons -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -217,7 +217,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(8)</visible>
 	</control>
-	<!--BG Settings-->
+	<!-- BG Settings -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -242,7 +242,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(9)</visible>
 	</control>
-	<!--BG Power-->
+	<!-- BG Power -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -267,7 +267,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(15)</visible>
 	</control>
-	<!--BG Weather-->
+	<!-- BG Weather -->
 	<control type="image">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="600" delay="0" reversible="true"/>
@@ -291,7 +291,7 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(7)</visible>
 	</control>
-	<!--BG Play Disc-->
+	<!-- BG Play Disc -->
 	<control type="image">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="600" delay="0" reversible="true"/>
@@ -315,8 +315,8 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(12)</visible>
 	</control>
-	<!--EXTRA-->
-	<!--BG Games-->
+	<!-- EXTRA -->
+	<!-- BG Games -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -341,8 +341,8 @@
 		<visible>Skin.HasSetting(CustomBackground)</visible>
 		<visible>Container(540).HasFocus(11)</visible>
 	</control>
-	<!--EXTRA-->
-	<!--BG VOD-->
+	<!-- EXTRA -->
+	<!-- BG VOD -->
 	<control type="multiimage">
 	    <animation type="Hidden">
 			<effect type="fade" start="100" end="0" time="650" delay="50" reversible="true"/>
@@ -368,7 +368,7 @@
 		<visible>Container(540).HasFocus(13)</visible>
 	</control>
 	
-	<!--Favorite 1-->
+	<!-- Favorite 1 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -395,7 +395,7 @@
 		<visible>Container(540).HasFocus(20)</visible>
 	</control>
 	
-	<!--Favorite 1 -->
+	<!-- Favorite 1 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -419,7 +419,7 @@
 		<visible>Container(540).HasFocus(20)</visible>
 	</control>
 	
-	<!--Favorite 2-->
+	<!-- Favorite 2 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -446,7 +446,7 @@
 		<visible>Container(540).HasFocus(21)</visible>
 	</control>
 	
-	<!--Favorite 2 -->
+	<!-- Favorite 2 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -470,7 +470,7 @@
 		<visible>Container(540).HasFocus(21)</visible>
 	</control>
 	
-	<!--Favorite 3 -->
+	<!-- Favorite 3 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -497,7 +497,7 @@
 		<visible>Container(540).HasFocus(22)</visible>
 	</control>
 	
-	<!--Favorite 3 -->
+	<!-- Favorite 3 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -521,7 +521,7 @@
 		<visible>Container(540).HasFocus(22)</visible>
 	</control>
 	
-	<!--Favorite 4 -->
+	<!-- Favorite 4 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -548,7 +548,7 @@
 		<visible>Container(540).HasFocus(23)</visible>
 	</control>
 	
-	<!--Favorite 4 -->
+	<!-- Favorite 4 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -572,7 +572,7 @@
 		<visible>Container(540).HasFocus(23)</visible>
 	</control>
 	
-	<!--Favorite 5 -->
+	<!-- Favorite 5 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -599,7 +599,7 @@
 		<visible>Container(540).HasFocus(24)</visible>
 	</control>
 	
-	<!--Favorite 5 -->
+	<!-- Favorite 5 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -623,7 +623,7 @@
 		<visible>Container(540).HasFocus(24)</visible>
 	</control>
 	
-	<!--Favorite 6 -->
+	<!-- Favorite 6 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -650,7 +650,7 @@
 		<visible>Container(540).HasFocus(25)</visible>
 	</control>
 	
-	<!--Favorite 6 -->
+	<!-- Favorite 6 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -674,7 +674,7 @@
 		<visible>Container(540).HasFocus(25)</visible>
 	</control>
 	
-	<!--Favorite 7 -->
+	<!-- Favorite 7 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -701,7 +701,7 @@
 		<visible>Container(540).HasFocus(26)</visible>
 	</control>
 	
-	<!--Favorite 7 -->
+	<!-- Favorite 7 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -725,7 +725,7 @@
 		<visible>Container(540).HasFocus(26)</visible>
 	</control>
 	
-	<!--Favorite 8 -->
+	<!-- Favorite 8 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -752,7 +752,7 @@
 		<visible>Container(540).HasFocus(27)</visible>
 	</control>
 	
-	<!--Favorite 8 -->
+	<!-- Favorite 8 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -777,7 +777,7 @@
 	</control>
 	
 	
-	<!--Favorite 9 -->
+	<!-- Favorite 9 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -804,7 +804,7 @@
 		<visible>Container(540).HasFocus(28)</visible>
 	</control>
 	
-	<!--Favorite 9 -->
+	<!-- Favorite 9 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -828,7 +828,7 @@
 		<visible>Container(540).HasFocus(28)</visible>
 	</control>
 	
-	<!--Favorite 10 -->
+	<!-- Favorite 10 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -855,7 +855,7 @@
 		<visible>Container(540).HasFocus(29)</visible>
 	</control>
 	
-	<!--Favorite 10 -->
+	<!-- Favorite 10 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -879,7 +879,7 @@
 		<visible>Container(540).HasFocus(29)</visible>
 	</control>
 	
-	<!--Playlist 1 -->
+	<!-- Playlist 1 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -906,7 +906,7 @@
 		<visible>Container(540).HasFocus(30)</visible>
 	</control>
 	
-	<!--Playlist 1 -->
+	<!-- Playlist 1 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -930,7 +930,7 @@
 		<visible>Container(540).HasFocus(30)</visible>
 	</control>
 	
-	<!--Playlist 2 -->
+	<!-- Playlist 2 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -957,7 +957,7 @@
 		<visible>Container(540).HasFocus(31)</visible>
 	</control>
 	
-	<!--Playlist 2 -->
+	<!-- Playlist 2 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -981,7 +981,7 @@
 		<visible>Container(540).HasFocus(31)</visible>
 	</control>
 	
-	<!--Playlist 3 -->
+	<!-- Playlist 3 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1008,7 +1008,7 @@
 		<visible>Container(540).HasFocus(32)</visible>
 	</control>
 	
-	<!--Playlist 3 -->
+	<!-- Playlist 3 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1032,7 +1032,7 @@
 		<visible>Container(540).HasFocus(32)</visible>
 	</control>
 	
-	<!--Playlist 4 -->
+	<!-- Playlist 4 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1059,7 +1059,7 @@
 		<visible>Container(540).HasFocus(33)</visible>
 	</control>
 	
-	<!--Playlist 4 -->
+	<!-- Playlist 4 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1083,7 +1083,7 @@
 		<visible>Container(540).HasFocus(33)</visible>
 	</control>
 	
-	<!--Playlist 5 -->
+	<!-- Playlist 5 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1110,7 +1110,7 @@
 		<visible>Container(540).HasFocus(34)</visible>
 	</control>
 	
-	<!--Playlist 5 -->
+	<!-- Playlist 5 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1134,7 +1134,7 @@
 		<visible>Container(540).HasFocus(34)</visible>
 	</control>
 	
-	<!--Playlist 6 -->
+	<!-- Playlist 6 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1161,7 +1161,7 @@
 		<visible>Container(540).HasFocus(35)</visible>
 	</control>
 	
-	<!--Playlist 6 -->
+	<!-- Playlist 6 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1185,7 +1185,7 @@
 		<visible>Container(540).HasFocus(35)</visible>
 	</control>
 	
-	<!--Playlist 7 -->
+	<!-- Playlist 7 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1212,7 +1212,7 @@
 		<visible>Container(540).HasFocus(36)</visible>
 	</control>
 	
-	<!--Playlist 7 -->
+	<!-- Playlist 7 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1236,7 +1236,7 @@
 		<visible>Container(540).HasFocus(36)</visible>
 	</control>
 	
-	<!--Playlist 8 -->
+	<!-- Playlist 8 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1263,7 +1263,7 @@
 		<visible>Container(540).HasFocus(37)</visible>
 	</control>
 	
-	<!--Playlist 8 -->
+	<!-- Playlist 8 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1287,7 +1287,7 @@
 		<visible>Container(540).HasFocus(37)</visible>
 	</control>
 	
-	<!--Playlist 9 -->
+	<!-- Playlist 9 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1314,7 +1314,7 @@
 		<visible>Container(540).HasFocus(38)</visible>
 	</control>
 	
-	<!--Playlist 9 -->
+	<!-- Playlist 9 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1338,7 +1338,7 @@
 		<visible>Container(540).HasFocus(38)</visible>
 	</control>
 	
-	<!--Playlist 10 -->
+	<!-- Playlist 10 -->
 	
 	<control type="multiimage">
 	    <animation type="Hidden">
@@ -1365,7 +1365,7 @@
 		<visible>Container(540).HasFocus(39)</visible>
 	</control>
 	
-	<!--Playlist 10 -->
+	<!-- Playlist 10 -->
 	
 	<control type="image">
 	    <animation type="Hidden">
@@ -1390,7 +1390,7 @@
 	</control>
 	
 	
-	<!-- END CUSTOM BACKGROUNDS -->
+	<!--  END CUSTOM BACKGROUNDS -->
 	<include>FusionStyles</include>	
 	<control type="image">
 		<posx>0</posx>
@@ -1595,7 +1595,7 @@
 						  <visible>Skin.HasSetting(MoviesHomeDefault)</visible>
 					  </item>
 					  
-					  <!-- EXTRA ITEM HD MOVIES -->
+					  <!--  EXTRA ITEM HD MOVIES -->
 					  
 					  <item id="14">
 						  <description>HD Movies</description>
@@ -1664,7 +1664,7 @@
 						  <visible>Skin.HasSetting(Menu_Custom16)</visible>
 					  </item>
 					  
-					  <!-- EXTRA ITEM ON DEMAND -->
+					  <!--  EXTRA ITEM ON DEMAND -->
 					  
 					  <item id="13">
 						  <description>On Demand</description>
@@ -1716,7 +1716,7 @@
 						  <visible>!Skin.HasSetting(PicsHome)</visible>
 					  </item>
 					  
-					  <!-- EXTRA ITEM GAMES -->
+					  <!--  EXTRA ITEM GAMES -->
 					  
 					  <item id="11">
 						  <description>Games</description>
@@ -1752,7 +1752,7 @@
 						  <visible>!Skin.HasSetting(WeatherHome)</visible>
 					  </item>
 					  
-					  <!-- EXTRA ITEM FAVOURITES -->
+					  <!--  EXTRA ITEM FAVOURITES -->
 					  
 					    <item id="20">
 						  <description>Custom Favourite 1</description>
@@ -1857,8 +1857,8 @@
 				</control>
 		<control type="group" id="777">
 
-			<!--Library Totals-->				
-			<!--Library Totals-->
+			<!-- Library Totals -->				
+			<!-- Library Totals -->
 		<control type="group">
 				<animation type="Visible" condition="Container(540).HasFocus(2) | Container(540).HasFocus(13) | Container(540).HasFocus(14) | Container(540).HasFocus(3) | Container(540).HasFocus(13) | Container(540).HasFocus(4) | Container(540).HasFocus(9) | [Container(540).HasFocus(30) + Skin.HasSetting(HomeLatestPlaylist1)] | [Container(540).HasFocus(31) + Skin.HasSetting(HomeLatestPlaylist2)] | [Container(540).HasFocus(32) + Skin.HasSetting(HomeLatestPlaylist3)] | [Container(540).HasFocus(33) + Skin.HasSetting(HomeLatestTVPlaylist1)] | [Container(540).HasFocus(34) + Skin.HasSetting(HomeLatestTVPlaylist2)] | [Container(540).HasFocus(35) + Skin.HasSetting(HomeLatestTVPlaylist3)]" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
@@ -1930,7 +1930,7 @@
 				<label fallback="-">• $INFO[Window.Property(Movies.Count),, movies]</label>
 				<visible>!Player.HasMedia + [Container(540).HasFocus(2) | Container(540).HasFocus(14)]</visible>
 			</control>
-			<!-- Labels Movie Playlist Count -->
+			<!--  Labels Movie Playlist Count -->
 				<control type="label">
 				<posx>7</posx>
 				<posy>990</posy>
@@ -1975,7 +1975,7 @@
 				<label fallback="-">• $INFO[Window.Property(Movies.Watched),, watched]</label>
 				<visible>!Player.HasMedia + [Container(540).HasFocus(2) | Container(540).HasFocus(14)]</visible>
 			</control>
-			<!-- Labels Movie Playlist watched -->
+			<!--  Labels Movie Playlist watched -->
 			<control type="label">
 				<posx>7</posx>
 				<posy>1020</posy>
@@ -2020,7 +2020,7 @@
 				<label fallback="-">• $INFO[Window.Property(Movies.Unwatched),, unwatched]</label>
 				<visible>!Player.HasMedia + [Container(540).HasFocus(2) | Container(540).HasFocus(14)]</visible>
 			</control>
-			<!-- Labels Movie Playlist Unwatched -->
+			<!--  Labels Movie Playlist Unwatched -->
 			<control type="label">
 				<posx>7</posx>
 				<posy>1050</posy>
@@ -2065,7 +2065,7 @@
 				<label fallback="-">• $INFO[Window.Property(TVShows.Count),, tv shows]</label>
 				<visible>!Player.HasMedia + Container(540).HasFocus(3)</visible>
 			</control>
-			<!-- Labels TV Shows Playlist 1 Count -->
+			<!--  Labels TV Shows Playlist 1 Count -->
 			 <control type="label">
 				<posx>7</posx>
 				<posy>990</posy>
@@ -2099,7 +2099,7 @@
 				<label fallback="-">• $INFO[Window.Property(PlaylistLastEpisodeMenu6.TvShows),, tv shows]</label>
 				<visible>!Player.HasMedia + Container(540).HasFocus(35)</visible>
 			</control>
-			<!-- ------------------------- -->
+			
 			<control type="label">
 				<posx>7</posx>
 				<posy>1020</posy>
@@ -2145,7 +2145,7 @@
 				<label fallback="-">• $INFO[Window.Property(PlaylistLastEpisodeMenu6.Count),, episodes]</label>
 				<visible>!Player.HasMedia + Container(540).HasFocus(35)</visible>
 			</control>
-			<!-- ------------------------- -->
+			
 			<control type="label">
 				<posx>7</posx>
 				<posy>1050</posy>
@@ -2191,7 +2191,7 @@
 				<label fallback="-">• $INFO[Window.Property(PlaylistLastEpisodeMenu6.Unwatched),, unwatched]</label>
 				<visible>!Player.HasMedia + Container(540).HasFocus(35)</visible>
 			</control>
-			<!-- ------------------ -->
+			
 			<control type="label">
 				<posx>7</posx>
 				<posy>990</posy>
@@ -2260,8 +2260,8 @@
 			</control>	
 		</control>
 		</control>
-			<!--Weather Info-->				
-			<!--Library Totals Place-->				
+			<!-- Weather Info -->				
+			<!-- Library Totals Place -->				
 		<control type="group">
 				<animation type="Visible" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
@@ -2359,7 +2359,7 @@
 		</control>
 	<control type="group">
 	<visible>Skin.HasSetting(HomeSubMenus)</visible>							
-			<!--MOVIES-->	
+			<!-- MOVIES -->	
 							
 			<control type="list" id="640">
 				<posx>515</posx>
@@ -2508,7 +2508,7 @@
 					</content>		
 				</control>
 				
-			<!--TV SHOWS-->					
+			<!-- TV SHOWS -->					
 			<control type="list" id="642">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -2644,7 +2644,7 @@
 					</content>		
 				</control>
 				
-			<!--VIDEOS-->					
+			<!-- VIDEOS -->					
 			<control type="list" id="644">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -2754,7 +2754,7 @@
 					</content>		
 				</control>
 				
-			<!--MUSIC-->		
+			<!-- MUSIC -->		
 			<control type="list" id="646">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -2900,7 +2900,7 @@
 					</content>		
 				</control>
 
-			<!--Settings-->		
+			<!-- Settings -->		
 			<control type="list" id="648">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3031,7 +3031,7 @@
 					</content>		
 				</control>
 				
-			<!--WEATHER-->					
+			<!-- WEATHER -->					
 			<control type="list" id="650">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3136,7 +3136,7 @@
 					</content>		
 				</control>
 				
-			<!--ADDONS-->					
+			<!-- ADDONS -->					
 			<control type="list" id="652">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3240,8 +3240,8 @@
 					</content>		
 				</control>
 				
-			<!--EXTRA-->
-			<!--HD MOVIES-->					
+			<!-- EXTRA -->
+			<!-- HD MOVIES -->					
 			<control type="list" id="640">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3359,7 +3359,7 @@
 					</content>		
 				</control>
 				
-					<!--POWER-->					
+					<!-- POWER -->					
 			<control type="list" id="655">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3475,7 +3475,7 @@
 						  <onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
 						  <visible>System.HasAlarm(shutdowntimer)</visible>
 					  </item>
-					 <!--  <item id="6">
+					 <!--   <item id="6">
 						  <description>enter master mode</description>
 						  <label>enter master mode</label>
 						  <onclick>xbmc.mastermode</onclick>
@@ -3503,7 +3503,7 @@
 					</content>		
 				</control>
 				
-				<!--Recently Added Movie Playlist 1-->					
+				<!-- Recently Added Movie Playlist 1 -->					
 			<control type="list" id="657">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3588,7 +3588,7 @@
 					</content>		
 				</control>
 				
-					<!--Recently Added Movie Playlist 2-->					
+					<!-- Recently Added Movie Playlist 2 -->					
 			<control type="list" id="658">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3673,7 +3673,7 @@
 					</content>		
 				</control>
 				
-				<!--Recently Added Movie Playlist 3-->					
+				<!-- Recently Added Movie Playlist 3 -->					
 			<control type="list" id="659">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3758,7 +3758,7 @@
 				</control>
 				
 				
-				<!--Recently Added TV Playlist 1-->					
+				<!-- Recently Added TV Playlist 1 -->					
 			<control type="list" id="660">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3843,7 +3843,7 @@
 				</control>
 				
 				
-				<!--Recently Added TV Playlist 2-->					
+				<!-- Recently Added TV Playlist 2 -->					
 			<control type="list" id="661">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -3927,7 +3927,7 @@
 					</content>		
 				</control>
 				
-           <!--Recently Added TV Playlist 3-->					
+           <!-- Recently Added TV Playlist 3 -->					
 			<control type="list" id="662">
 				<posx>515</posx>
 				<posy>700</posy>
@@ -4013,8 +4013,8 @@
 
 
 		
-			<!-- EXTRA -->
-			<!-- ADDONS VOD -->
+			<!--  EXTRA -->
+			<!--  ADDONS VOD -->
 			<control type="list" id="654">
 				<posx>17</posx>
 				<posy>674</posy>
@@ -4259,12 +4259,12 @@
 				<effect type="slide" start="0,0" end="0,-10" time="150" />		
 			</animation>				
 		</control>
-<!--recently added and featured-->	
+<!-- recently added and featured -->	
 
 <control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) | Skin.HasSetting(HomeWatchlist)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4285,7 +4285,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14) | Container(540).HasFocus(3) | Container(540).HasFocus(4)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4308,7 +4308,7 @@
 					  <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14)</visible>	
 					  <visible>Skin.HasSetting(HomeRecentlyAddedMovies)</visible>
 				  </control>
-				  <!--watchlist movies text-->		
+				  <!-- watchlist movies text -->		
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4331,7 +4331,7 @@
 					  <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14)</visible>	
 					  <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>	
 				  </control>
-				  <!--recently added episodes text-->	
+				  <!-- recently added episodes text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4354,7 +4354,7 @@
 					  <visible>Container(540).HasFocus(3)</visible>	
 					  <visible>Skin.HasSetting(HomeRecentlyAddedEpisodes)</visible>
 				  </control>
-				   <!--watchlist episodes text-->	
+				   <!-- watchlist episodes text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4378,7 +4378,7 @@
 					  <visible>Skin.HasSetting(HomeWatchlistEpisodes)</visible>	
 				  </control>
 				  
-				  <!--recently added albums text-->	
+				  <!-- recently added albums text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4399,11 +4399,11 @@
 						  <effect type="fade" start="100" end="0" time="200" />
 					  </animation>	
 					  <visible>Container(540).HasFocus(4)</visible>	
-					 <!--  <visible>Skin.HasSetting(HomeRecentlyAddedAlbums)</visible>	 -->
+					 <!--   <visible>Skin.HasSetting(HomeRecentlyAddedAlbums)</visible>	 -->
 				  </control>
 				  
-				   <!--watchlist albums text-->	
-				  <!-- <control type="label">
+				   <!-- watchlist albums text -->	
+				  <!--  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
 					  <width>250</width>
@@ -4425,7 +4425,7 @@
 					  <visible>Container(540).HasFocus(4)</visible>	
 					  <visible>Skin.HasSetting(HomeWatchlistAlbums)</visible>	
 				  </control> -->
-				  <!--
+				  <!-- 
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4449,7 +4449,7 @@
 				  </control>
 				  -->
 				  
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4568,7 +4568,7 @@
 				<include>RecentlyAddedEpisodes</include>	
 				<include>RecentlyAddedAlbums</include>
 				<include>RecentlyAddedAddons</include>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -4579,11 +4579,11 @@
 	<fadetime>600</fadetime>
 </control>
 	</control>
-	<!--recently added movieplaylist1-->		
+	<!-- recently added movieplaylist1 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestPlaylist1)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4604,7 +4604,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(30)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4626,7 +4626,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(30)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4669,7 +4669,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(30)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -4681,11 +4681,11 @@
 </control>
 	</control>
 	
-	<!--recently added movieplaylist2-->		
+	<!-- recently added movieplaylist2 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestPlaylist2)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4706,7 +4706,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(31)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4728,7 +4728,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(31)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4771,7 +4771,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(31)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 			
 <control type="image">
 	<posx>500</posx>
@@ -4784,11 +4784,11 @@
 	</control>
 	
 	
-	<!--recently added movieplaylist3-->		
+	<!-- recently added movieplaylist3 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestPlaylist3)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4809,7 +4809,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(32)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4831,7 +4831,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(32)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4874,7 +4874,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(32)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -4886,11 +4886,11 @@
 </control>
 	</control>
 	
-<!--recently added TVplaylist1-->		
+<!-- recently added TVplaylist1 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestTVPlaylist1)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4911,7 +4911,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(33)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4933,7 +4933,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(33)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4976,7 +4976,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(33)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -4988,11 +4988,11 @@
 </control>
 	</control>	
 	
-	<!--recently added TVplaylist2-->		
+	<!-- recently added TVplaylist2 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestTVPlaylist2)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -5013,7 +5013,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(34)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -5035,7 +5035,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(34)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -5078,7 +5078,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(34)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -5090,11 +5090,11 @@
 </control>
 	</control>	
 	
-	<!--recently added TVplaylist3-->		
+	<!-- recently added TVplaylist3 -->		
 	<control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) + Skin.HasSetting(HomeLatestTVPlaylist3)</visible>
 				
-<!--recently added icon and text-->			
+<!-- recently added icon and text -->			
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -5115,7 +5115,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(35)</visible>			
 				  </control>	
-				  <!--recently added movies text-->	
+				  <!-- recently added movies text -->	
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -5137,7 +5137,7 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(35)</visible>	
 				  </control>
-<!--featured icon and text-->			  
+<!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -5180,7 +5180,7 @@
 					  </animation>
 					  <visible>Container(540).HasFocus(35)</visible>	
 				  </control>
-<!--Recently Added and Featured Items--> 				  				  			
+<!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
 	<posx>500</posx>
@@ -5196,7 +5196,7 @@
 	
 	
 	
-<!--System Info on Settings Home-->	
+<!-- System Info on Settings Home -->	
 <control type="group">
 				<visible>Skin.HasSetting(HomeSystemInfo)</visible>
 				  <control type="image">
@@ -5403,7 +5403,7 @@
 			</control>
 			</control>
 
-<!--Storage Space Info on Settings Home-->	
+<!-- Storage Space Info on Settings Home -->	
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>451r</posy>
@@ -5530,7 +5530,7 @@
 			</control>
 		</control>
 			
-<!--Current Weather Info on Weather Home-->
+<!-- Current Weather Info on Weather Home -->
 <control type="group">
 				<visible>Skin.HasSetting(HomeWeatherInfo)</visible>
 				  <control type="image">
@@ -5655,7 +5655,7 @@
 			</control>
 			</control>
 			
-<!--Future Weather Info on Weather Home-->	
+<!-- Future Weather Info on Weather Home -->	
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -5968,7 +5968,7 @@
 			</control>
 			</control>
 			
-<!--play disc label home-->	
+<!-- play disc label home -->	
 			<control type="image">
 				<animation type="Hidden">
 				<effect type="fade" start="100" end="0" time="200" delay="0" reversible="true"/>
@@ -6037,7 +6037,7 @@
 				<label>$INFO[System.DVDLabel]</label>
 			</control>
 				  
-<!--now playing icon and text-->		
+<!-- now playing icon and text -->		
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>179r</posy>
@@ -6083,7 +6083,7 @@
 				  
 		
 
-<!--RSS-->
+<!-- RSS -->
  	<control type="image">
 		<posx>0</posx>
 		<posy>53</posy>

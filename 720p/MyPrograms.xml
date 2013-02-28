@@ -62,7 +62,7 @@
 		<fadetime>300</fadetime>
 		<aspectratio>stretch</aspectratio>
 		<colordiffuse>60FFFFFF</colordiffuse>
-		<visible>Control.IsVisible(56) | Control.IsVisible(59) | Control.IsVisible(62)]</visible>
+		<visible>[Control.IsVisible(56) | Control.IsVisible(59) | Control.IsVisible(62)]</visible>
 		<animation effect="fade" start="100" end="20" condition="true">Conditional</animation>
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="250" delay="0" />			

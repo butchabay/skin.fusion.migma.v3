@@ -25,7 +25,7 @@
 		<include>FusionStyles</include>
 
 		<control type="group">
-			<visible>!Control.IsVisible(9502)</visible>
+			<!-- <visible>!Control.IsVisible(9502)</visible> -->
 			<control type="image">
 				<posx>110</posx>
 				<posy>130</posy>

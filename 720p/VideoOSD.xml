@@ -997,7 +997,7 @@
                     <texturefocus>osdold/xxinfofo.png</texturefocus>
                     <texturenofocus>osdold/xxinfonf.png</texturenofocus>
 					<onclick>close</onclick>
-					<onclick>xbmc.activatewindow(142)</onclick>
+					<onclick>ActivateWindow(142)</onclick>
 				</control>
                 <control type="button" id="13">
                     <description>DVD Menu</description>
