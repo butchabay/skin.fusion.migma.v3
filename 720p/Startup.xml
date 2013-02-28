@@ -1,7 +1,6 @@
 <window>
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
-	<onload condition="Skin.HasSetting(HomeWatchlist)">RunScript(script.watchlist,movies=true&amp;episodes=true&amp;limit=25)</onload>
 	<controls>
   	<control type="image">
 		<posx>0</posx>

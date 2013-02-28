@@ -88,7 +88,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -109,7 +109,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -150,7 +150,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -171,7 +171,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -261,7 +261,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -282,7 +282,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -341,7 +341,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -362,7 +362,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -401,7 +401,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>[UPPERCASE] â€¢ [/UPPERCASE]</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -950,7 +950,7 @@
 						<posy>250r</posy>
 						<width>820</width>
 						<font>about</font>
-						<label>$INFO[VideoPlayer.Year] • $INFO[VideoPlayer.Genre]</label>
+						<label>$INFO[VideoPlayer.Year] â€¢ $INFO[VideoPlayer.Genre]</label>
 						<textcolor>ffc0c0c0</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>

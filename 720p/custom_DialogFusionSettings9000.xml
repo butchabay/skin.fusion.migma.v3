@@ -235,7 +235,6 @@
 						<label>[LOWERCASE]hide watchlist[/LOWERCASE]</label>
 						<onclick>Skin.ToggleSetting(HomeWatchlist)</onclick>
 						<selected>!Skin.HasSetting(HomeWatchlist)</selected>
-						<visible>System.HasAddon(script.watchlist)</visible>
 					</control>
 					<control type="radiobutton" id="106">
 						<include>FusionSettingsButton</include>

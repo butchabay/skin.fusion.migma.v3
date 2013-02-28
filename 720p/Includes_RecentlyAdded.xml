@@ -185,86 +185,85 @@
                 </control>
             </focusedlayout>
             <content>
-
                 <item id="1">
-					<icon>$INFO[Window.Property(LatestMovie.1.Fanart)]</icon>
-                    <label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
-                    <label2>$INFO[Window.Property(LatestMovie.1.RunningTime)]</label2>
-					<thumb>$INFO[Window.Property(LatestMovie.1.Year)]</thumb>
-                    <!-- <property name="ItemRating">$INFO[Window.Property(LatestMovie.1.Rating)]</property> -->
-                    <onclick>$INFO[Window.Property(LatestMovie.1.Path),PlayMedia(,)]</onclick>
+					<icon>$INFO[Window.Property(RecentMovie.1.Art(fanart)]</icon>
+                    <label>$INFO[Window.Property(RecentMovie.1.Title)]</label>
+                    <label2>$INFO[Window.Property(RecentMovie.1.RunTime)]</label2>
+					<thumb>$INFO[Window.Property(RecentMovie.1.Year)]</thumb>
+                    <!-- <property name="ItemRating">$INFO[Window.Property(RecentMovie.1.Rating)]</property> -->
+                    <onclick>$INFO[Window.Property(RecentMovie.1.Play)]</onclick>
 					<visible>!Skin.HasSetting(HomeWatchlistMovies)</visible>
-                    <visible>!IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
+                    <visible>!IsEmpty(Window.Property(RecentMovie.1.Title))</visible>
                 </item>
                 <item id="2">
-                    <icon>$INFO[Window.Property(LatestMovie.2.Fanart)]</icon>
-                    <label>$INFO[Window.Property(LatestMovie.2.Title)]</label>
-                    <label2>$INFO[Window.Property(LatestMovie.2.RunningTime)]</label2>
-					<thumb>$INFO[Window.Property(LatestMovie.2.Year)]</thumb>
-                    <!-- <property name="ItemRating">$INFO[Window.Property(LatestMovie.1.Rating)]</property> -->
-                    <onclick>$INFO[Window.Property(LatestMovie.2.Path),PlayMedia(,)]</onclick>
+                    <icon>$INFO[Window.Property(RecentMovie.2.Art(fanart)]</icon>
+                    <label>$INFO[Window.Property(RecentMovie.2.Title)]</label>
+                    <label2>$INFO[Window.Property(RecentMovie.2.RunTime)]</label2>
+					<thumb>$INFO[Window.Property(RecentMovie.2.Year)]</thumb>
+                    <!-- <property name="ItemRating">$INFO[Window.Property(RecentMovie.1.Rating)]</property> -->
+                   <onclick>$INFO[Window.Property(RecentMovie.2.Play)]</onclick>
 					<visible>!Skin.HasSetting(HomeWatchlistMovies)</visible>
-                    <visible>!IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
+                    <visible>!IsEmpty(Window.Property(RecentMovie.2.Title))</visible>
                 </item>
                 <item id="3">
-                    <icon>$INFO[Window.Property(LatestMovie.3.Fanart)]</icon>
-                    <label>$INFO[Window.Property(LatestMovie.3.Title)]</label>
-                    <label2>$INFO[Window.Property(LatestMovie.3.RunningTime)]</label2>
-					<thumb>$INFO[Window.Property(LatestMovie.3.Year)]</thumb>
-                    <!-- <property name="ItemRating">$INFO[Window.Property(LatestMovie.1.Rating)]</property> -->
-                    <onclick>$INFO[Window.Property(LatestMovie.3.Path),PlayMedia(,)]</onclick>
+                    <icon>$INFO[Window.Property(RecentMovie.3.Art(fanart)]</icon>
+                    <label>$INFO[Window.Property(RecentMovie.3.Title)]</label>
+                    <label2>$INFO[Window.Property(RecentMovie.3.RunTime)]</label2>
+					<thumb>$INFO[Window.Property(RecentMovie.3.Year)]</thumb>
+                    <!-- <property name="ItemRating">$INFO[Window.Property(RecentMovie.1.Rating)]</property> -->
+                    <onclick>$INFO[Window.Property(RecentMovie.3.Play)]</onclick>
 					<visible>!Skin.HasSetting(HomeWatchlistMovies)</visible>
-                    <visible>!IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
+                    <visible>!IsEmpty(Window.Property(RecentMovie.3.Title))</visible>
                 </item>
                 <item id="4">
-                    <icon>$INFO[Window.Property(LatestMovie.4.Fanart)]</icon>
-                    <label>$INFO[Window.Property(LatestMovie.4.Title)]</label>
-                    <label2>$INFO[Window.Property(LatestMovie.4.RunningTime)]</label2>
-					<thumb>$INFO[Window.Property(LatestMovie.4.Year)]</thumb>
-                    <!-- <property name="ItemRating">$INFO[Window.Property(LatestMovie.1.Rating)]</property> -->
-                    <onclick>$INFO[Window.Property(LatestMovie.4.Path),PlayMedia(,)]</onclick>
+                    <icon>$INFO[Window.Property(RecentMovie.4.Art(fanart)]</icon>
+                    <label>$INFO[Window.Property(RecentMovie.4.Title)]</label>
+                    <label2>$INFO[Window.Property(RecentMovie.4.RunTime)]</label2>
+					<thumb>$INFO[Window.Property(RecentMovie.4.Year)]</thumb>
+                    <!-- <property name="ItemRating">$INFO[Window.Property(RecentMovie.1.Rating)]</property> -->
+                    <onclick>$INFO[Window.Property(RecentMovie.4.Play)]</onclick>
 					<visible>!Skin.HasSetting(HomeWatchlistMovies)</visible>
-                    <visible>!IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
+                    <visible>!IsEmpty(Window.Property(RecentMovie.4.Title))</visible>
                 </item>
 				  <item id="81">
-              <label>$INFO[Window.Property(WatchList_Movie.1.Label)]</label>
-              <label2>$INFO[Window.Property(WatchList_Movie.1.RunningTime)]</label2>
-              <onclick>PlayMedia($INFO[Window.Property(WatchList_Movie.1.Path)])</onclick>
-              <icon>$INFO[Window.Property(WatchList_Movie.1.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(WatchList_Movie.1.Year)]</thumb>
-			  <property name="RunningTime">$INFO[Window.Property(LatestMovie.1.RunningTime)]</property>
+              <label>$INFO[Window.Property(RecommendedMovie.1.Title)]</label>
+              <label2>$INFO[Window.Property(RecommendedMovie.1.RunTime)]</label2>
+              <icon>$INFO[Window.Property(RecommendedMovie.1.Art(fanart)]</icon>
+              <thumb>$INFO[Window.Property(RecommendedMovie.1.Year)]</thumb>
+			  <onclick>$INFO[Window.Property(RecommendedMovie.1.Play)]</onclick>
+			  <property name="RunningTime">$INFO[Window.Property(RecommendedMovie.1.RunTime)]</property>
               <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>
-              <visible>!IsEmpty(Window.Property(WatchList_Movie.1.Label))</visible>
+			   <visible>!IsEmpty(Window.Property(RecommendedMovie.1.Title))</visible>
             </item>
             <item id="82">
-              <label>$INFO[Window.Property(WatchList_Movie.2.Label)]</label>
-              <label2>$INFO[Window.Property(WatchList_Movie.2.RunningTime)]</label2>
-              <onclick>PlayMedia($INFO[Window.Property(WatchList_Movie.2.Path)])</onclick>
-              <icon>$INFO[Window.Property(WatchList_Movie.2.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(WatchList_Movie.2.Year)]</thumb>
-			  <property name="RunningTime">$INFO[Window.Property(LatestMovie.2.RunningTime)]</property>
+              <label>$INFO[Window.Property(RecommendedMovie.2.Title)]</label>
+              <label2>$INFO[Window.Property(RecommendedMovie.2.RunTime)]</label2>
+              <icon>$INFO[Window.Property(RecommendedMovie.2.Art(fanart)]</icon>
+              <thumb>$INFO[Window.Property(RecommendedMovie.2.Year)]</thumb>
+			  <onclick>$INFO[Window.Property(RecommendedMovie.2.Play)]</onclick>
+			  <property name="RunningTime">$INFO[Window.Property(RecommendedMovie.2.RunTime)]</property>
               <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>
-              <visible>!IsEmpty(Window.Property(WatchList_Movie.2.Label))</visible>
+			   <visible>!IsEmpty(Window.Property(RecommendedMovie.2.Title))</visible>
             </item>
             <item id="83">
-              <label>$INFO[Window.Property(WatchList_Movie.3.Label)]</label>
-              <label2>$INFO[Window.Property(WatchList_Movie.3.RunningTime)]</label2>
-              <onclick>PlayMedia($INFO[Window.Property(WatchList_Movie.3.Path)])</onclick>
-              <icon>$INFO[Window.Property(WatchList_Movie.3.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(WatchList_Movie.3.Year)]</thumb>
-			  <property name="RunningTime">$INFO[Window.Property(LatestMovie.3.RunningTime)]</property>
+              <label>$INFO[Window.Property(RecommendedMovie.3.Title)]</label>
+              <label2>$INFO[Window.Property(RecommendedMovie.3.RunTime)]</label2>
+              <icon>$INFO[Window.Property(RecommendedMovie.3.Art(fanart)]</icon>
+              <thumb>$INFO[Window.Property(RecommendedMovie.3.Year)]</thumb>
+			  <onclick>$INFO[Window.Property(RecommendedMovie.3.Play)]</onclick>
+			  <property name="RunningTime">$INFO[Window.Property(RecommendedMovie.3.RunTime)]</property>
               <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>
-              <visible>!IsEmpty(Window.Property(WatchList_Movie.3.Label))</visible>
+			   <visible>!IsEmpty(Window.Property(RecommendedMovie.3.Title))</visible>
             </item>
             <item id="84">
-              <label>$INFO[Window.Property(WatchList_Movie.4.Label)]</label>
-              <label2>$INFO[Window.Property(WatchList_Movie.4.RunningTime)]</label2>
-              <onclick>PlayMedia($INFO[Window.Property(WatchList_Movie.4.Path)])</onclick>
-              <icon>$INFO[Window.Property(WatchList_Movie.4.Fanart)]</icon>
-              <thumb>$INFO[Window.Property(WatchList_Movie.4.Year)]</thumb>
-			  <property name="RunningTime">$INFO[Window.Property(LatestMovie.4.RunningTime)]</property>
+              <label>$INFO[Window.Property(RecommendedMovie.4.Title)]</label>
+              <label2>$INFO[Window.Property(RecommendedMovie.4.RunTime)]</label2>
+              <icon>$INFO[Window.Property(RecommendedMovie.4.Art(fanart)]</icon>
+              <thumb>$INFO[Window.Property(RecommendedMovie.4.Year)]</thumb>
+			  <onclick>$INFO[Window.Property(RecommendedMovie.4.Play)]</onclick>
+			  <property name="RunningTime">$INFO[Window.Property(RecommendedMovie.4.RunTime)]</property>
               <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>
-              <visible>!IsEmpty(Window.Property(WatchList_Movie.4.Label))</visible>
+              <visible>!IsEmpty(Window.Property(RecommendedMovie.4.Title))</visible>
             </item>
             </content>
         </control>
@@ -353,9 +352,9 @@
 				</focusedlayout>	
 					<content>
 						<item id="1">
-							<icon>$INFO[Window.Property(RandomMovie.1.Fanart)]</icon>
+							<icon>$INFO[Window.Property(RandomMovie.1.Art(fanart)]</icon>
 							<label>$INFO[Window.Property(RandomMovie.1.Title)]</label>
-							<onclick>$INFO[Window.Property(RandomMovie.1.Path),PlayMedia(,)]</onclick>
+							<onclick>$INFO[Window.Property(RandomMovie.1.Play)]</onclick>
 							<visible>!IsEmpty(Window.Property(RandomMovie.1.Title))</visible>
 						</item>
 					</content>
@@ -1677,7 +1676,7 @@
                     <textcolor>ff505050</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
-                    <label>$INFO[ListItem.Label2] • $INFO[ListItem.Label]</label>
+                    <label>$INFO[ListItem.Label2] â€¢ $INFO[ListItem.Label]</label>
                 </control>
             </focusedlayout>
             <content>
@@ -1986,7 +1985,7 @@
                     <textcolor>ff505050</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
-                    <label>$INFO[ListItem.Label2] • $INFO[ListItem.Label]</label>
+                    <label>$INFO[ListItem.Label2] â€¢ $INFO[ListItem.Label]</label>
                 </control>
             </focusedlayout>
             <content>
@@ -2293,7 +2292,7 @@
                     <textcolor>ff505050</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
-                    <label>$INFO[ListItem.Label2] • $INFO[ListItem.Label]</label>
+                    <label>$INFO[ListItem.Label2] â€¢ $INFO[ListItem.Label]</label>
                 </control>
             </focusedlayout>
             <content>
@@ -2600,7 +2599,7 @@
                     <textcolor>ff505050</textcolor>
                     <scroll>false</scroll>
                     <align>left</align>
-                    <label>$INFO[ListItem.Label2] • $INFO[ListItem.Label]</label>
+                    <label>$INFO[ListItem.Label2] â€¢ $INFO[ListItem.Label]</label>
                 </control>
             </focusedlayout>
             <content>
