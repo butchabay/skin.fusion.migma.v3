@@ -139,27 +139,27 @@
 				<content>
 
 					<item id="1">
-						<label>[LOWERCASE]Home Settings[/LOWERCASE]</label>
+						<label>31402</label>
 						<icon>settings/home.png</icon>
 						<onclick>activatewindow(9000)</onclick>
 					</item>
 					<item id="2">
-						<label>[LOWERCASE]View Settings[/LOWERCASE]</label>
+						<label>31403</label>
 						<icon>settings/views.png</icon>
 						<onclick>activatewindow(9001)</onclick>
 					</item>
 					<item id="3">
-						<label>[LOWERCASE]OSD Settings[/LOWERCASE]</label>
+						<label>31404</label>
 						<icon>settings/osd.png</icon>
 						<onclick>activatewindow(9002)</onclick>
 					</item>
 					<item id="4">
-						<label>[LOWERCASE]Extra Settings[/LOWERCASE]</label>
+						<label>31405</label>
 						<icon>settings/extras.png</icon>
 						<onclick>activatewindow(9003)</onclick>
 					</item>
 					<item id="5">
-						<label>[LOWERCASE]Custom Settings[/LOWERCASE]</label>
+						<label>31406</label>
 						<icon>settings/profiles.png</icon>
 						<onclick>activatewindow(9004)</onclick>
 					</item>

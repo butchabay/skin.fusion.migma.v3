@@ -23,8 +23,8 @@
   <string id="31018">Widescreen</string>
   <string id="31019">In Progress...</string>
       
-  <string id="31050"> Songs</string>
-  <string id="31051"> Albums</string>
+  <string id="31050">Songs</string>
+  <string id="31051">Albums</string>
   
   <string id="31350">YOUR CURRENT WEATHER CONDITIONS</string>		
   <string id="31351">TEMP</string>		
@@ -37,6 +37,7 @@
   <string id="31358">LOW</string>
   
   <!-- DialogAlbumInfo.XML AND DialogVideoInfo.XML -->
+  
   <string id="31211">Style:</string>
   <string id="31212">Mood:</string>
   <string id="31213">released:</string>
@@ -55,6 +56,137 @@
   <string id="31226">PLAY</string>
   <string id="31227">VIEW CAST</string>
   <string id="31228">VIEW TRAILER</string> 
+  <string id="31400">Please Wait...</string>
 
-  <string id="31400">Please Wait...</string>  	
+  <!-- New Strings 01.03.2013 -->
+  
+  <string id="31401">XBMC is an award-winning free and open source (GPL) software media player and entertainment hub for digital media. XBMC is available for Linux, Mac OS X (Leopard, Tiger and Apple TV) and Microsoft Windows, as well as the original Xbox game console. Created in 2003 by a group of like minded programmers, XBMC is a non-profit project run and developed by volunteers located around the world. More than 50 software developers have contributed to XBMC, and 100-plus translators have worked to expand its reach, making it available in more than 30 languages.
+                     While XBMC functions very well as a standard media player application for your computer, it has been designed to be the perfect companion for your HTPC. Supporting an almost endless range of remote controls, and combined with its beautiful interface and powerful skinning engine, XBMC feels very natural to use from the couch and is the ideal solution for your home theater.
+					 Currently XBMC can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available. Use your media as-is: XBMC can play CDs and DVDs directly from the disk or image file, almost all popular archive formats from your hard drive, and even files inside ZIP and RAR archives. It will even scan all of your media and automatically create a personalized library complete with boxcovers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer will become a fully functional multimedia jukebox.
+					 It is difficult to put into words all that XBMC can do, so take the plunge and Try XBMC Today</string>
+					 
+  <!-- Custom Settings -->
+					 
+  <string id="31402">home settings</string>
+  <string id="31403">view settings</string>
+  <string id="31404">osd settings</string>
+  <string id="31405">extended settings</string>
+  <string id="31406">custom settings</string>
+  
+  <!-- DialogFusionSettings9000 -->
+  
+  <string id="31407">Main Items</string>
+  <string id="31408">Content</string>
+  <string id="31409">Behaviours</string>
+  <string id="31410">Backgrounds</string>
+  <string id="31411">Extra Items</string>
+  <string id="31412">hide videos</string>
+  <string id="31413">hide movies</string>
+  <string id="31414">hide tvshows</string>
+  <string id="31415">hide music</string>
+  <string id="31416">hide pictures</string>
+  <string id="31417">hide programs</string>
+  <string id="31418">hide weather</string>
+  <string id="31419">hide add-on manager</string>
+  <string id="31420">hide power</string>
+  <string id="31421">hide library totals</string>
+  <string id="31422">hide system info on settings home</string>
+  <string id="31423">hide recently added</string>
+  <string id="31424">- show movies</string>
+  <string id="31425">- show episodes</string>
+  <string id="31426">- show albums</string>
+  <string id="31427">hide watchlist (in progress)</string>
+  <string id="31428">hide weather info on home</string>
+  <string id="31429">hide submenus</string>
+  <string id="31430">show disc label in playdisc</string>
+  <string id="31431">movies go to titles instead of root</string>
+  <string id="31432">tvshows go to titles instead of root</string>
+  <string id="31433">music goes to albums instead of root</string>
+  <string id="31434">music goes to artists instead of root</string>
+  <string id="31435">music goes to files instead of root</string>
+  <string id="31436">videos goes to files instead of root</string>
+  <string id="31437">enable custom backgrounds</string>
+  <string id="31438">select backgrounds folder videos</string>
+  <string id="31439">select backgrounds folder movies</string>
+  <string id="31440">select backgrounds folder tvshows</string>
+  <string id="31441">select backgrounds folder music</string>
+  <string id="31442">select backgrounds folder pictures</string>
+  <string id="31443">select backgrounds folder settings</string>
+  <string id="31444">select backgrounds folder programs</string>
+  <string id="31445">select backgrounds folder add-ons</string>
+  <string id="31446">select backgrounds folder weather</string>
+  <string id="31447">select backgrounds folder power</string>
+  <string id="31448">select backgrounds folder play disc</string>
+  <string id="31449">select backgrounds folder games</string>
+  <string id="31450">select backgrounds folder vod</string>
+  <string id="31451">show hd movies</string>
+  <string id="31452">show vod</string>
+  <string id="31453">- set shortcut 1</string>
+  <string id="31454">- set shortcut 2</string>
+  <string id="31455">- set shortcut 3</string>
+  <string id="31456">- set shortcut 4</string>
+  <string id="31457">- set shortcut 5</string>
+  <string id="31458">show games</string>
+  <string id="31459">- set shortcut for games</string>
+  
+  <!-- DialogFusionSettings9001 -->
+  
+  <string id="31460">General</string>
+  <string id="31461">Viewtypes</string>
+  <string id="31462">Styles</string>
+  <string id="31463">Video Info</string>
+  <string id="31463">use black top navigation bar</string>
+  <string id="31463">hide top navigation bar in viewtypes</string>
+  <string id="31463">show watched overlays</string>
+  <string id="31463">hide red Z bar</string>
+  <string id="31463">hide options bar (kiosk mode)</string>
+  <string id="31463">hide SD flags</string>
+  <string id="31463">hide media flags in viewtypes</string>
+  <string id="31463">use IMdB ratings instead of certifications</string>
+  <string id="31463">banner.jpg for banner views</string>
+  <string id="31463">landscape.jpg for wide views </string>
+  <string id="31463">hide view INFOLIST</string>
+  <string id="31464">hide view BIGLIST</string>
+  <string id="31465">hide view BIGLIST 2</string>
+  <string id="31466">hide view LOWLIST</string>
+  <string id="31467">hide view POSTERWRAP</string>
+  <string id="31468">hide view POSTERWRAP 2</string>
+  <string id="31469">hide view POSTERWRAP 3</string>
+  <string id="31470">hide view FANWRAP</string>
+  <string id="31471">hide view EPISODEWRAP</string>
+  <string id="31472">hide view BANNER</string>
+  <string id="31473">hide view ICON</string>
+  <string id="31474">hide view ICON 2</string>
+  <string id="31475">hide view ICON 3</string>
+  <string id="31476">hide view WIDEICON</string>
+  <string id="31477">hide view WIDEICON 2</string>
+  <string id="31478">hide view INFOWRAP</string>
+  <string id="31479">hide view EPISODES</string>
+  <string id="31480">hide view EPISODES 2</string>
+  <string id="31481">hide view BIGFAN</string>
+  <string id="31482">hide view POSTERSHELF</string>
+  <string id="31483">hide view WALL</string>
+  <string id="31484">hide view HULU</string>
+  <string id="31485">hide view ALBUMWRAP</string>
+  <string id="31486">hide view SEASONWRAP</string>
+  <string id="31487">hide view COVERWRAP</string>
+  <string id="31488">hide view COVERWRAP 2</string>
+  <string id="31489">hide view SONGLIST</string>
+  <string id="31490">hide view GRID</string>
+  <string id="31491">hide view POSTERFIX</string>
+  <string id="31492">hide view POSTERFIX 2</string>
+  <string id="31493">hide view POSTERFIX 3</string>
+  <string id="31494">hide view COVERFIX</string>
+  <string id="31495">hide view COVERFIX 2</string>
+  <string id="31496">hide view MUSICSQUARE</string>
+  <string id="31497">hide view MUSICSQUAREFIX</string>
+  <string id="31498">Blue</string>
+  <string id="31499">Flix Red</string>
+  <string id="31500">Grunge</string>
+  
+  
+  
+  
+  
+  
 </strings>
