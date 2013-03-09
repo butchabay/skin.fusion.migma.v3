@@ -88,23 +88,23 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>Main Items</label>
+						<label>31407</label>
 						<onclick>SetFocus(9001)</onclick>
 					</item>
 					<item id="2">
-						<label>Content</label>
+						<label>31408</label>
 						<onclick>SetFocus(9002)</onclick>
 					</item>
 					<item id="3">
-						<label>Behaviors</label>
+						<label>31409</label>
 						<onclick>SetFocus(9003)</onclick>
 					</item>
 					<item id="4">
-						<label>Backgrounds</label>
+						<label>31410</label>
 						<onclick>SetFocus(9004)</onclick>
 					</item>
 					<item id="5">
-						<label>Extra Items</label>
+						<label>31411</label>
 						<onclick>SetFocus(9005)</onclick>
 					</item>
 				</content>
@@ -128,55 +128,55 @@
 					<ondown>9001</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide videos[/LOWERCASE]</label>
+						<label>31412</label>
 						<onclick>Skin.ToggleSetting(VideoHome)</onclick>
 						<selected>Skin.HasSetting(VideoHome)</selected>
 					</control>
 					<control type="radiobutton" id="101">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide movies[/LOWERCASE]</label>
+						<label>31413</label>
 						<onclick>Skin.ToggleSetting(MovieHome)</onclick>
 						<selected>Skin.HasSetting(MovieHome)</selected>
 					</control>
 					<control type="radiobutton" id="102">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide tvshows[/LOWERCASE]</label>
+						<label>31414</label>
 						<onclick>Skin.ToggleSetting(TVHome)</onclick>
 						<selected>Skin.HasSetting(TVHome)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide music[/LOWERCASE]</label>
+						<label>31415</label>
 						<onclick>Skin.ToggleSetting(MusicHome)</onclick>
 						<selected>Skin.HasSetting(MusicHome)</selected>
 					</control>
 					<control type="radiobutton" id="104">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide pictures[/LOWERCASE]</label>
+						<label>31416</label>
 						<onclick>Skin.ToggleSetting(PicsHome)</onclick>
 						<selected>Skin.HasSetting(PicsHome)</selected>
 					</control>
 					<control type="radiobutton" id="105">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide programs[/LOWERCASE]</label>
+						<label>31417</label>
 						<onclick>Skin.ToggleSetting(ProgramsHome)</onclick>
 						<selected>Skin.HasSetting(ProgramsHome)</selected>
 					</control>
 					<control type="radiobutton" id="106">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide weather[/LOWERCASE]</label>
+						<label>31418</label>
 						<onclick>Skin.ToggleSetting(WeatherHome)</onclick>
 						<selected>Skin.HasSetting(WeatherHome)</selected>
 					</control>
 					<control type="radiobutton" id="107">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide add-on manager[/LOWERCASE]</label>
+						<label>31419</label>
 						<onclick>Skin.ToggleSetting(AddonHome)</onclick>
 						<selected>Skin.HasSetting(AddonHome)</selected>
 					</control>
 					<control type="radiobutton" id="108">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide power[/LOWERCASE]</label>
+						<label>31420</label>
 						<onclick>Skin.ToggleSetting(PowerHome)</onclick>
 						<selected>Skin.HasSetting(PowerHome)</selected>
 					</control>
@@ -198,25 +198,25 @@
 					<ondown>9002</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide library totals[/LOWERCASE]</label>
+						<label>31421</label>
 						<onclick>Skin.ToggleSetting(HomeTotals)</onclick>
 						<selected>!Skin.HasSetting(HomeTotals)</selected>
 					</control>
 					<control type="radiobutton" id="101">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide system info on settings home[/LOWERCASE]</label>
+						<label>31422</label>
 						<onclick>Skin.ToggleSetting(HomeSystemInfo)</onclick>
 						<selected>!Skin.HasSetting(HomeSystemInfo)</selected>
 					</control>
 					<control type="radiobutton" id="102">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide recently added[/LOWERCASE]</label>
+						<label>31423</label>
 						<onclick>Skin.ToggleSetting(HomeRecentlyAdded)</onclick>
 						<selected>!Skin.HasSetting(HomeRecentlyAdded)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- show movies[/LOWERCASE]</label>
+						<label>31424</label>
 						<onclick>Skin.ToggleSetting(HomeRecentlyAddedMovies)</onclick>
 						<onclick>Skin.Reset(HomeWatchlistMovies)</onclick>
 						<selected>Skin.HasSetting(HomeRecentlyAddedMovies)</selected>
@@ -224,7 +224,7 @@
 					</control>
 					<control type="radiobutton" id="104">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- show episodes[/LOWERCASE]</label>
+						<label>31425</label>
 						<onclick>Skin.ToggleSetting(HomeRecentlyAddedEpisodes)</onclick>
 						<onclick>Skin.Reset(HomeWatchlistEpisodes)</onclick>
 						<selected>Skin.HasSetting(HomeRecentlyAddedEpisodes)</selected>
@@ -232,13 +232,13 @@
 					</control>
 					<control type="radiobutton" id="105">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide watchlist[/LOWERCASE]</label>
+						<label>31427</label>
 						<onclick>Skin.ToggleSetting(HomeWatchlist)</onclick>
 						<selected>!Skin.HasSetting(HomeWatchlist)</selected>
 					</control>
 					<control type="radiobutton" id="106">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- show movies[/LOWERCASE]</label>
+						<label>31424</label>
 						<onclick>Skin.ToggleSetting(HomeWatchlistMovies)</onclick>
 						<onclick>Skin.Reset(HomeRecentlyAddedMovies)</onclick>
 						<selected>Skin.HasSetting(HomeWatchlistMovies)</selected>
@@ -246,7 +246,7 @@
 					</control>
 					<control type="radiobutton" id="107">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- show episodes[/LOWERCASE]</label>
+						<label>31425</label>
 						<onclick>Skin.ToggleSetting(HomeWatchlistEpisodes)</onclick>
 						<onclick>Skin.Reset(HomeRecentlyAddedEpisodes)</onclick>
 						<selected>Skin.HasSetting(HomeWatchlistEpisodes)</selected>
@@ -262,19 +262,19 @@
 					</control> -->
 					<control type="radiobutton" id="108">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide weather info on home[/LOWERCASE]</label>
+						<label>31428</label>
 						<onclick>Skin.ToggleSetting(HomeWeatherInfo)</onclick>
 						<selected>!Skin.HasSetting(HomeWeatherInfo)</selected>
 					</control>
 					<control type="radiobutton" id="109">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]hide submenus[/LOWERCASE]</label>
+						<label>31429</label>
 						<onclick>Skin.ToggleSetting(HomeSubMenus)</onclick>
 						<selected>!Skin.HasSetting(HomeSubMenus)</selected>
 					</control>
 					<control type="radiobutton" id="110">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]show disc label in playdisc[/LOWERCASE]</label>
+						<label>31430</label>
 						<onclick>Skin.ToggleSetting(DiscLabel)</onclick>
 						<selected>Skin.HasSetting(DiscLabel)</selected>
 					</control>
@@ -296,19 +296,19 @@
 					<ondown>9003</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]Movies go to titles instead of root[/LOWERCASE]</label>
+						<label>31431</label>
 						<onclick>Skin.ToggleSetting(MoviesHomeDefault)</onclick>
 						<selected>Skin.HasSetting(MoviesHomeDefault)</selected>
 					</control>
 					<control type="radiobutton" id="101">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]TV Shows go to titles instead of root[/LOWERCASE]</label>
+						<label>31432</label>
 						<onclick>Skin.ToggleSetting(TVHomeDefault)</onclick>
 						<selected>Skin.HasSetting(TVHomeDefault)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]Music goes to albums instead of root[/LOWERCASE]</label>
+						<label>31433</label>
 						<onclick>Skin.ToggleSetting(MusicHomeAlbums)</onclick>
 						<onclick>Skin.Reset(MusicHomeArtists)</onclick>
 						<onclick>Skin.Reset(MusicHomeFiles)</onclick>
@@ -316,7 +316,7 @@
 					</control>
 					<control type="radiobutton" id="102">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]Music goes to artists instead of root[/LOWERCASE]</label>
+						<label>31434</label>
 						<onclick>Skin.ToggleSetting(MusicHomeArtists)</onclick>
 						<onclick>Skin.Reset(MusicHomeAlbums)</onclick>
 						<onclick>Skin.Reset(MusicHomeFiles)</onclick>
@@ -324,7 +324,7 @@
 					</control>
 					<control type="radiobutton" id="104">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]Music goes to files instead of root[/LOWERCASE]</label>
+						<label>31435</label>
 						<onclick>Skin.ToggleSetting(MusicHomeFiles)</onclick>
 						<onclick>Skin.Reset(MusicHomeAlbums)</onclick>
 						<onclick>Skin.Reset(MusicHomeArtists)</onclick>
@@ -332,7 +332,7 @@
 					</control>
 					<control type="radiobutton" id="105">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]Video goes to files instead of root[/LOWERCASE]</label>
+						<label>31436</label>
 						<onclick>Skin.ToggleSetting(VideosHomeDefault)</onclick>
 						<selected>Skin.HasSetting(VideosHomeDefault)</selected>
 					</control>
@@ -354,13 +354,13 @@
 					<ondown>9004</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]enable custom backgrounds[/LOWERCASE]</label>
+						<label>31437</label>
 						<onclick>Skin.ToggleSetting(CustomBackground)</onclick>
 						<onclick>Skin.Reset(CustomBackgroundImage)</onclick>
 						<selected>Skin.HasSetting(CustomBackground)</selected>
 					</control>
 					<control type="button" id="101">
-						<label>[LOWERCASE]select backgrounds folder videos[/LOWERCASE]</label>
+						<label>31438</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageVideos)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageVideos)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -368,7 +368,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="102">
-						<label>[LOWERCASE]select backgrounds folder movies[/LOWERCASE]</label>
+						<label>31439</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageMovie)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageMovie)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -376,7 +376,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="103">
-						<label>[LOWERCASE]select backgrounds folder tvshows[/LOWERCASE]</label>
+						<label>31440</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageTVShows)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageTVShows)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -384,7 +384,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="104">
-						<label>[LOWERCASE]select backgrounds folder music[/LOWERCASE]</label>
+						<label>31441</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageMusic)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageMusic)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -392,7 +392,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="105">
-						<label>[LOWERCASE]select backgrounds folder pictures[/LOWERCASE]</label>
+						<label>31442</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImagePictures)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImagePictures)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -400,7 +400,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="106">
-						<label>[LOWERCASE]select backgrounds folder settings[/LOWERCASE]</label>
+						<label>31443</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageSettings)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageSettings)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -408,7 +408,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="107">
-						<label>[LOWERCASE]select backgrounds folder programs[/LOWERCASE]</label>
+						<label>31444</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImagePrograms)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImagePrograms)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -416,7 +416,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="108">
-						<label>[LOWERCASE]select backgrounds folder add-ons[/LOWERCASE]</label>
+						<label>31445</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageAddons)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageAddons)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -424,7 +424,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="109">
-						<label>[LOWERCASE]select background image weather[/LOWERCASE]</label>
+						<label>31446</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundWeather)][/COLOR]</label2>
 						<onclick>Skin.SetImage(CustomBackgroundWeather)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -432,7 +432,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="113">
-						<label>[LOWERCASE]select backgrounds folder power[/LOWERCASE]</label>
+						<label>31447</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImagePower)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImagePower)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -440,7 +440,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="110">
-						<label>[LOWERCASE]select background image play disc[/LOWERCASE]</label>
+						<label>31448</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundPlayDisc)][/COLOR]</label2>
 						<onclick>Skin.SetImage(CustomBackgroundPlayDisc)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -448,7 +448,7 @@
 						<visible>Skin.HasSetting(CustomBackground)</visible>
 					</control>
 					<control type="button" id="111">
-						<label>[LOWERCASE]select backgrounds folder games[/LOWERCASE]</label>
+						<label>31449</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageGames)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageGames)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -457,7 +457,7 @@
 						<enable>Skin.HasSetting(GamesHome)</enable>
 					</control>
 					<control type="button" id="112">
-						<label>[LOWERCASE]select backgrounds folder videos on demand[/LOWERCASE]</label>
+						<label>31450</label>
 						<label2>[COLOR=white]$INFO[Skin.String(CustomBackgroundImageVOD)][/COLOR]</label2>
 						<onclick>Skin.SetPath(CustomBackgroundImageVOD)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -483,19 +483,19 @@
 					<ondown>9005</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]show hd movies[/LOWERCASE]</label>
+						<label>31451</label>
 						<onclick>Skin.ToggleSetting(HDMoviesHome)</onclick>
 						<selected>Skin.HasSetting(HDMoviesHome)</selected>
 					</control>
 					<control type="radiobutton" id="101">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]show videos on demand[/LOWERCASE]</label>
+						<label>31452</label>
 						<onclick>Skin.ToggleSetting(VODHome)</onclick>
 						<selected>Skin.HasSetting(VODHome)</selected>
 					</control>
 					<control type="button" id="102">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set shortcut 1[/LOWERCASE]</label>
+						<label>31453</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeVOD_Addon1)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeVOD_Addon1,xbmc.addon.video)</onclick>
@@ -503,7 +503,7 @@
 					</control>
 					<control type="button" id="103">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set shortcut 2[/LOWERCASE]</label>
+						<label>31454</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeVOD_Addon2)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeVOD_Addon2,xbmc.addon.video)</onclick>
@@ -511,7 +511,7 @@
 					</control>
 					<control type="button" id="104">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set shortcut 3[/LOWERCASE]</label>
+						<label>31455</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeVOD_Addon3)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeVOD_Addon3,xbmc.addon.video)</onclick>
@@ -519,7 +519,7 @@
 					</control>
 					<control type="button" id="105">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set shortcut 4[/LOWERCASE]</label>
+						<label>31456</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeVOD_Addon4)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeVOD_Addon4,xbmc.addon.video)</onclick>
@@ -527,7 +527,7 @@
 					</control>
 					<control type="button" id="106">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set shortcut 5[/LOWERCASE]</label>
+						<label>31457</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeVOD_Addon5)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeVOD_Addon5,xbmc.addon.video)</onclick>
@@ -535,13 +535,13 @@
 					</control>
 					<control type="radiobutton" id="107">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]show games[/LOWERCASE]</label>
+						<label>31458</label>
 						<onclick>Skin.ToggleSetting(GamesHome)</onclick>
 						<selected>Skin.HasSetting(GamesHome)</selected>
 					</control>
 					<control type="button" id="108">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- set games shortcut[/LOWERCASE]</label>
+						<label>31459</label>
 						<label2>[COLOR=white]$INFO[Skin.String(HomeGames_Addon)][/COLOR]</label2>
 						<font>griddetails</font>
 						<onclick>Skin.SetAddon(HomeGames_Addon,xbmc.python.pluginsource)</onclick>
