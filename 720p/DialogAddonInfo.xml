@@ -85,7 +85,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailc</textcolor>
-			<label>[LOWERCASE]author[/LOWERCASE] </label>
+			<label>31591</label>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
 			</animation>
@@ -104,7 +104,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailb</textcolor>
-			<label>[UPPERCASE]$INFO[ListItem.Property(Addon.Creator)][/UPPERCASE]     </label>
+			<label>[UPPERCASE]$INFO[ListItem.Property(Addon.Creator)][/UPPERCASE] </label>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
 			</animation>
@@ -123,7 +123,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailc</textcolor>
-			<label>[LOWERCASE]version[/LOWERCASE] </label>
+			<label>31592</label>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
 			</animation>
@@ -221,7 +221,7 @@
 		
 	<control type="button" id ="6">
 		<description>enable addon</description>
-		<label>[LOWERCASE]enable[/LOWERCASE]</label>
+		<label>31593</label>
 		<width>170</width>
 		<height>34</height>
 		<align>left</align>
@@ -243,7 +243,7 @@
 	  
 	  <control type="button" id ="7">
 		<description>disable Addon</description>
-		<label>[LOWERCASE]disable[/LOWERCASE]</label>
+		<label>31594</label>
 		<width>180</width>
 		<height>34</height>
 		<align>left</align>
@@ -266,7 +266,7 @@
 	  
 	  <control type="button" id ="9">
 		<description>Config</description>
-		<label>configure</label>
+		<label>31595</label>
 		<width>180</width>
 		<height>34</height>
 		<align>left</align>
@@ -288,7 +288,7 @@
 	  
     <control type="button" id="8">
 		<description>update</description>
-		<label>update</label>
+		<label>31596</label>
 		<width>150</width>
 		<height>34</height>
 		<align>left</align>
@@ -310,7 +310,7 @@
 	
     <control type="button" id="10">
 		<description>changelog</description>
-		<label>changelog</label>
+		<label>31597</label>
 		<width>190</width>
 		<height>34</height>
 		<align>left</align>
@@ -331,7 +331,7 @@
     </control>
 	 <control type="button" id="11">
 		<description>rollback</description>
-		<label>rollback</label>
+		<label>31598</label>
 		<width>190</width>
 		<height>34</height>
 		<align>left</align>

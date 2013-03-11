@@ -146,8 +146,8 @@
 	  
 	  <control type="togglebutton" id ="9">
 		<description>Album/Tracks</description>
-		<label>discography</label>
-		<altlabel>biography</altlabel>
+		<label>31215</label>
+		<altlabel>31601</altlabel>
 		<width>202</width>
 		<height>34</height>
 		<align>left</align>
@@ -169,7 +169,7 @@
 	    
 	  <control type="button" id ="10">
 		<description>get thumb</description>
-		<label>get thumb</label>
+		<label>31216</label>
 		<width>180</width>
 		<height>34</height>
 		<align>left</align>
@@ -187,7 +187,7 @@
 	  
     <control type="button" id="12">
 		<description>get fanart</description>
-		<label>get fanart</label>
+		<label>31217</label>
 		<width>180</width>
 		<height>34</height>
 		<align>left</align>
@@ -205,7 +205,7 @@
 	
     <control type="button" id="6">
 		<description>refresh</description>
-		<label>reload</label>
+		<label>31599</label>
 		<width>180</width>
 		<height>34</height>
 		<align>left</align>
@@ -260,7 +260,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailc</textcolor>
-			<label>[LOWERCASE]released[/LOWERCASE] </label>
+			<label>31213</label>
 			<visible>!Container.Content(Artists)</visible>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
@@ -272,7 +272,7 @@
 
 					
 			<control type="label">
-			<description>Director</description>
+			<description>Year</description>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width min="29" max="600">auto</width>
@@ -301,7 +301,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailc</textcolor>
-			<label>[LOWERCASE]record label[/LOWERCASE] </label>
+			<label>31600</label>
 			<visible>!Container.Content(Artists)</visible>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
@@ -341,7 +341,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>itemdetailc</textcolor>
-			<label>[LOWERCASE]genre[/LOWERCASE] </label>
+			<label>31224</label>
 			<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
 			</animation>
@@ -445,8 +445,6 @@
 					<include>thumbfade</include>
 			</control>
 			<control type="label">
-					<label>-</label>
-					<font>-</font>
 					<visible>Control.IsVisible(50) + !Player.HasVideo</visible>
 			</control>	
 		</itemlayout>

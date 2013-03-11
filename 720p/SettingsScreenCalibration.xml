@@ -58,7 +58,7 @@
 		<posy>40</posy>
 		<width>720</width>
 		<align>center</align>
-		<label>-</label>
+		
     <font>20BdFont</font>
     <textcolor>FocusedTextColor</textcolor>
 	</control>
@@ -68,7 +68,7 @@
 		<posy>70</posy>
 		<width>720</width>
 		<align>center</align>
-		<label>-</label>
+		
     <font>20BdFont</font>
     <textcolor>FocusedTextColor</textcolor>
 	</control>

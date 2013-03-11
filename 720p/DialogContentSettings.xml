@@ -179,7 +179,7 @@
 					<font>recent</font>
 					<aligny>center</aligny>
 					<align>left</align>
-					<label>Scraper: $INFO[ListItem.Label]</label>
+					<label>$LOCALIZE[31602] $INFO[ListItem.Label]</label>
 					<textcolor>FF303030</textcolor>
 				</control>
 			</itemlayout>
@@ -201,7 +201,7 @@
 					<font>recent</font>
 					<aligny>center</aligny>
 					<align>left</align>
-					<label>Scraper: $INFO[ListItem.Label]</label>
+					<label>$LOCALIZE[31602] $INFO[ListItem.Label]</label>
 					<textcolor>ffffffff</textcolor>
 				</control>
 			</focusedlayout>

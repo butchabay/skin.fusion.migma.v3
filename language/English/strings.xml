@@ -278,14 +278,62 @@
   
    <!-- Dialog Addon Info -->
   
-  <string id="31591"></string>
-  <string id="31592"></string>
+  <string id="31591">author </string>
+  <string id="31592">version </string>
+  <string id="31593">enable</string>
+  <string id="31594">disable</string>
+  <string id="31595">configure</string>
+  <string id="31596">update</string>
+  <string id="31597">changelog</string>
+  <string id="31598">rollback</string>
   
- 
+  <!-- Dialog Album Info -->
   
+  <string id="31599">reload</string> 
+  <string id="31600">record label</string>
+  <string id="31601">biography</string>
+   
+  <!-- Dialog Content Settings -->
   
+  <string id="31602">scraper:</string>
   
+   <!-- Dialog Favourites -->
   
+  <string id="31603">favourites</string>
+  
+  <!-- Dialog FullscreenInfo -->
+  
+  <string id="31605">END TIME</string>
+  <string id="31606">FINISHES:</string>
+  <string id="31607">PAUSED</string>
+  <string id="31608">REWIND 2x</string>
+  <string id="31609">REWIND 4x</string>
+  <string id="31610">REWIND 8x</string>
+  <string id="31611">REWIND 16x</string>
+  <string id="31612">REWIND 32x</string>
+  <string id="31613">FORWARD 2x</string>
+  <string id="31614">FORWARD 4x</string>
+  <string id="31615">FORWARD 8x</string>
+  <string id="31616">FORWARD 16x</string>
+  <string id="31617">FORWARD 32x</string>
+  <string id="31618"> . </string>
+  
+  <!-- Various -->
+  
+  <string id="31619">Sources to be added:</string>
+  <string id="31620">SEEKING</string>
+  <string id="31621">RW 2x</string>
+  <string id="31622">RW 4x</string>
+  <string id="31623">RW 8x</string>
+  <string id="31624">RW 16x</string>
+  <string id="31625">RW 32x</string>
+  <string id="31626">FW 2x</string>
+  <string id="31627">FW 4x</string>
+  <string id="31628">FW 8</string>
+  <string id="31629">FW 16x</string>
+  <string id="31630">FW 32x</string>
+  <string id="31631">PLAYING</string>
+  <string id="31632">Close</string>
   
   
 </strings>

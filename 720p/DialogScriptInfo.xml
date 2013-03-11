@@ -12,9 +12,6 @@
 
 <include>DialogBack</include>
 
- <control type="label">
-   <label>DialogScriptInfo.xml</label>
- </control>
 
  <control type="textbox" id="5">
    <description>Textarea</description>

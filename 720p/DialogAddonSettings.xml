@@ -216,7 +216,6 @@
 			<font>recent</font>
 			<textcolor>ff444444</textcolor>
 			<focusedcolor>ffefefef</focusedcolor>
-			<label>-</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<textoffsetx>20</textoffsetx>

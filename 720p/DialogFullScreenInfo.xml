@@ -88,7 +88,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -109,7 +109,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -150,7 +150,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -171,7 +171,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -261,7 +261,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -282,7 +282,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -341,7 +341,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -362,7 +362,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -401,7 +401,7 @@
 						<posy>0</posy>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
-						<label>[UPPERCASE] • [/UPPERCASE]</label>
+						<label>31618</label>
 						<textcolor>movietitleb2</textcolor>
 						<align>left</align>
 						<scroll>false</scroll>
@@ -506,7 +506,7 @@
 						<posy>0</posy>
 						<width min="5" max="250">auto</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]End Time[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31605][/B]</label>
 						<textcolor>f0a0a0a0</textcolor>
 						<font>duration</font>
 						<align>left</align>
@@ -547,7 +547,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Paused[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31607][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -564,7 +564,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Rewind 2x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31608][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -579,7 +579,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Rewind 4x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31609][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -594,7 +594,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Rewind 8x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31610][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -609,7 +609,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Rewind 16x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31611][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -624,7 +624,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Rewind 32x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31612][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -641,7 +641,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Forward 2x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31613][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -656,7 +656,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Forward 4x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31614][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -671,7 +671,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Forward 8x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31615][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -686,7 +686,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Forward 16x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31616][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -701,7 +701,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]Forward 32x[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31617][/B]</label>
 						<textcolor>gray</textcolor>
 						<font>duration</font>
 						<align>center</align>
@@ -845,7 +845,7 @@
 						<posy>0</posy>
 						<width min="50" max="250">auto</width>
 						<height>25</height>
-						<label>[B][UPPERCASE]FINISHES:[/UPPERCASE][/B]</label>
+						<label>[B]$LOCALIZE[31606][/B]</label>
 						<textcolor>ff404040</textcolor>
 						<font>duration</font>
 						<align>right</align>

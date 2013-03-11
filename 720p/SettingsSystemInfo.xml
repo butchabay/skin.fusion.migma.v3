@@ -168,7 +168,7 @@
 			<control type="label" id="2">
 				<description>2</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -181,7 +181,7 @@
 			<control type="label" id="3">
 				<description>3</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -194,7 +194,7 @@
 			<control type="label" id="4">
 				<description>4</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -207,7 +207,7 @@
 			<control type="label" id="5">
 				<description>5</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -220,7 +220,7 @@
 			<control type="label" id="6">
 				<description>6</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -233,7 +233,7 @@
 			<control type="label" id="7">
 				<description>7</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -246,7 +246,7 @@
 			<control type="label" id="8">
 				<description>8</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -259,7 +259,7 @@
 			<control type="label" id="9">
 				<description>9</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -272,7 +272,7 @@
 			<control type="label" id="10">
 				<description>10</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -285,7 +285,7 @@
 			<control type="label" id="11">
 				<description>11</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -298,7 +298,7 @@
 			<control type="label" id="12">
 				<description>12</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>
@@ -311,7 +311,7 @@
 			<control type="label" id="52">
 				<description>XBMC BUILD Version</description>
 				<posy>55</posy>
-				<label>-</label>
+				
 				<align>left</align>
 				<textoffsetx>20</textoffsetx>
 				<height>43.5</height>

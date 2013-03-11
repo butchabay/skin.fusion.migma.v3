@@ -28,7 +28,7 @@
 		<description>Heading</description>
 		<posx>20</posx>
 		<posy>8</posy>
-		<label>-</label>
+		
 		<align>left</align>
 		<font>heading</font>
 		<textcolor>ffd0d0d0</textcolor>
@@ -39,7 +39,7 @@
     <description>Label</description>
     <posx>580</posx>
     <posy>8</posy>
-    <label>-</label>
+    
 	<font>button</font>
 	<textcolor>ffd0d0d0</textcolor>
 	<width>500</width>

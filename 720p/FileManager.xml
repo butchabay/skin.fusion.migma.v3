@@ -44,7 +44,7 @@
       <width>420</width>
       <height>45</height>
       <align>left</align>
-      <label>-</label>
+      
 	  <font>griddetails</font>
       <textcolor>White</textcolor>
     </control>
@@ -144,7 +144,7 @@
       <width>320</width>
       <height>45</height>
       <align>right</align>
-      <label>-</label>
+      
       <textcolor>White</textcolor>
     </control>
 	</control>
@@ -167,7 +167,7 @@
       <width>420</width>
       <height>45</height>
       <align>left</align>
-      <label>-</label>
+      
 	  <font>griddetails</font>
       <textcolor>White</textcolor>
     </control>
@@ -268,7 +268,7 @@
       <width>320</width>
       <height>45</height>
       <align>right</align>
-      <label>-</label>
+      
       <textcolor>White</textcolor>
     </control>
 	</control>

@@ -137,7 +137,7 @@
 				<align>center</align>
 				<texturefocus>grey.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<label>-</label>
+				
 				<onup>22</onup>
 				<onleft>12</onleft>
 				<onright>12</onright>

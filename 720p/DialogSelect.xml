@@ -246,7 +246,7 @@
 			<posx>885</posx>
 			<posy>525</posy>
 			<width>100</width>
-			<label>-</label>
+			
 			<align>right</align>
 		</control>
   
@@ -279,7 +279,7 @@
 			<posy>170</posy>
 			<width>160</width>
 			<height>37</height>	
-			<label>Close</label>
+			<label>31632</label>
 			<onclick>PreviousMenu</onclick>
 			<onup>5</onup>
 			<onleft>3</onleft>

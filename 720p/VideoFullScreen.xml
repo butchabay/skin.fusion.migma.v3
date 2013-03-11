@@ -29,7 +29,7 @@
 				<posx>25</posx>
 				<posy>15</posy>
 				<width>1280</width>
-				<label>-</label>
+				
 				<align>left</align>
 				<font>about</font>
 				<textcolor>b0e0e0e0</textcolor>
@@ -40,7 +40,7 @@
 				<posx>25</posx>
 				<posy>45</posy>
 				<width>1280</width>
-				<label>-</label>
+				
 				<align>left</align>
 				<font>about</font>
 				<textcolor>b0e0e0e0</textcolor>
@@ -52,7 +52,7 @@
 				<posy>65</posy>
 				<width>1280</width>
 				<height>80</height>
-				<label>-</label>
+				
 				<align>left</align>
 				<font>about</font>
 				<textcolor>b0e0e0e0</textcolor>

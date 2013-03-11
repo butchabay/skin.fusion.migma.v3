@@ -18,10 +18,6 @@
 				<posy>-20</posy>
 				<width>1</width>
 				<height>1</height>
-				<label>-</label>
-				<font>-</font>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
 				<onfocus>RunScript(script.favourites,playlists=play)</onfocus>
 				<onup>450</onup>
 				<onleft>450</onleft>

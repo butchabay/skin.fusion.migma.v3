@@ -134,7 +134,7 @@
 			<aligny>center</aligny>
 			<texturefocus>grey.png</texturefocus>
 			<texturenofocus>greyalt.png</texturenofocus>
-			<label>-</label>
+			
 			<onup>9001</onup>
 			<onleft>20</onleft>
 			<onright>20</onright>

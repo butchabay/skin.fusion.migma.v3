@@ -83,7 +83,6 @@
     <width>238</width>
 	<font>listdetail3</font>
 	<textcolor>taskbar</textcolor>
-    <label>-</label>
 	  <animation type="WindowOpen" reversible="false">
 		  <effect type="fade" start="0" end="100" time="350" delay="800" />
 	  </animation>
@@ -116,9 +115,6 @@
     <description>Cancel</description>
     <posx>190</posx>
     <posy>390</posy>
-    <label>-</label>
-    <texturefocus border="1">-</texturefocus>
-    <texturenofocus border="1">-</texturenofocus>
     <onleft>10</onleft>
     <onright>10</onright>
     <onup>10</onup>

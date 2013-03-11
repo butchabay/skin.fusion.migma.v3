@@ -54,7 +54,6 @@
 		<description>Heading</description>
 		<posx>0</posx>
 		<posy>156</posy>
-		<label>-</label>
 		<font>movietitle4</font>
 		<textcolor>movietitle</textcolor>
 		<align>center</align>
@@ -65,7 +64,6 @@
 		<description>Line 1</description>
 		<posx>0</posx>
 		<posy>220</posy>
-		<label>-</label>
 		<font>tvtitle</font>
 		<textcolor>movietitle2</textcolor>
 		<align>center</align>
@@ -76,7 +74,6 @@
 		<description>Line 2</description>
 		<posx>0</posx>
 		<posy>270</posy>
-		<label>-</label>
 		<font>tvtitle</font>
 		<textcolor>movietitle2</textcolor>
 		<align>center</align>
@@ -87,7 +84,6 @@
 		<description>Line 3</description>
 		<posx>0</posx>
 		<posy>320</posy>
-		<label>-</label>
 		<font>tvtitle</font>
 		<textcolor>movietitle2</textcolor>
 		<align>center</align>

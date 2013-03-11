@@ -50,7 +50,7 @@
 				<posy>56</posy>
 				<width>400</width>
 				<height>25</height>
-				<label>-</label>
+				
 				<font>recent</font>
 				<textcolor>FF474747</textcolor>
 				<align>right</align>
@@ -61,7 +61,7 @@
 				<posy>56</posy>
 				<width>400</width>
 				<height>25</height>
-				<label>-</label>
+				
 				<font>recent</font>
 				<textcolor>FF474747</textcolor>
 				<align>left</align>
@@ -83,7 +83,7 @@
 				<posy>53</posy>
 				<width>150</width>
 				<height>20</height>
-				<label>-</label>
+				
 				<font>recent</font>
 				<textcolor>FF474747</textcolor>
 				<align>center</align>
@@ -122,7 +122,7 @@
 						<control type="label" id="110">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 				            <textcolor>FF474747</textcolor>
 						</control>
@@ -338,7 +338,7 @@
 						<control type="label" id="120">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -490,7 +490,7 @@
 						<control type="label" id="130">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -624,7 +624,7 @@
 						<control type="label" id="140">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -776,7 +776,7 @@
 						<control type="label" id="150">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -950,7 +950,7 @@
 						<control type="label" id="160">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -1086,7 +1086,7 @@
 						<control type="label" id="170">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>
@@ -1222,7 +1222,7 @@
 						<control type="label" id="180">
 							<width min="10" max="280">auto</width>
 							<height>25</height>
-							<label>-</label>
+							
 							<font>recent</font>
 							<textcolor>FF474747</textcolor>
 						</control>

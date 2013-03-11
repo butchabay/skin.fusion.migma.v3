@@ -59,7 +59,7 @@
 				<width>1200</width>
 				<height>30</height>
 				<font>recent</font>
-				<label>-</label>
+				
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>FF474747</textcolor>
@@ -1259,7 +1259,7 @@
 				<control type="button" id="192">
 					<width>250</width>
 					<height>40</height>
-					<label>-</label>
+					
 					<font>font12</font>
 					<textcolor>FF474747</textcolor>
 					<align>center</align>
@@ -1269,7 +1269,7 @@
 				<control type="button" id="193">
 					<width>250</width>
 					<height>40</height>
-					<label>-</label>
+					
 					<font>font12</font>
 					<textcolor>FF474747</textcolor>
 					<align>center</align>

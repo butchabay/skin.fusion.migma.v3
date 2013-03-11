@@ -3,7 +3,6 @@
   <default type="label">
     <posx>0</posx>
     <posy>0</posy>
-    <label>-</label>
     <height>30</height>
     <align>left</align>
     <aligny>center</aligny>
@@ -18,11 +17,8 @@
   <default type="image">
     <posx>0</posx>
     <posy>0</posy>
-    <width>-</width>
-    <height>-</height>
     <align>center</align>
     <aligny>center</aligny>
-    <texture>-</texture>
     <aspectratio>keep</aspectratio>
   </default>
 
@@ -34,12 +30,9 @@
     <align>center</align>
     <aligny>center</aligny>
     <font>button</font>
-    <label>-</label>
     <textcolor>list</textcolor>
     <focusedcolor>White</focusedcolor>
     <disabledcolor>eeb0b0b0</disabledcolor>
-    <texturefocus>-</texturefocus>
-    <texturenofocus>-</texturenofocus>
     <pulseonselect>false</pulseonselect>
   </default>
 
@@ -48,7 +41,6 @@
     <posy>0</posy>
     <width>150</width>
     <height>48</height>
-    <label>-</label>
     <font>button</font>
     <textcolor>Black</textcolor>
     <focusedcolor>White</focusedcolor>
@@ -70,11 +62,9 @@
     <align>left</align>
     <aligny>center</aligny>
     <font>recent</font>
-    <label>-</label>
     <textcolor>ff303030</textcolor>
     <focusedcolor>White</focusedcolor>
     <disabledcolor>ffa0a0a0</disabledcolor>
-    <texturenofocus>-</texturenofocus>
     <texturefocus>list/smalllistfo.png</texturefocus>
     <textureradiofocus>buttons/radiofo.png</textureradiofocus>
     <textureradionofocus>buttons/radionf.png</textureradionofocus>
@@ -89,7 +79,6 @@
     <posy>0</posy>
     <width>150</width>
     <height>48</height>
-    <label>-</label>
     <font>button</font>
     <texturenofocus>buttons/spinnf.png</texturenofocus>
     <texturefocus>buttons/spinnf.png</texturefocus>
@@ -154,7 +143,6 @@
     <posy>0</posy>
     <width>280</width>
     <height>15</height>
-    <info>-</info>
     <texturebg>ProgressBack.png</texturebg>
     <lefttexture>ProgressLeft.png</lefttexture>
     <midtexture>ProgressMid.png</midtexture>

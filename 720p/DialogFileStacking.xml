@@ -12,9 +12,6 @@
     
 <include>DialogBack</include>
 
-  <control type="label">
-	  <label>DialogFileStacking.xml</label>
-  </control>
 
   <control type="list" id="450">
 	  <posx>10</posx>

@@ -135,7 +135,6 @@
 			<focusedcolor>FFE0E0E0</focusedcolor>
 			<texturefocus>list/smalllistfo.png</texturefocus>
 			<textoffsetx>20</textoffsetx>
-			<label></label>
 			<onup>10</onup>
 			<onleft>12</onleft>
 			<onright>12</onright>
@@ -167,9 +166,8 @@
 		<aligny>center</aligny>
 		<texturefocus>list/smalllistfo.png</texturefocus>
 		<textoffsetx>20</textoffsetx>
-			<textcolor>FF404040</textcolor>
-			<focusedcolor>FFE0E0E0</focusedcolor>
-		<label></label>
+		<textcolor>FF404040</textcolor>
+		<focusedcolor>FFE0E0E0</focusedcolor>
 		<onup>11</onup>
 		<onleft>16</onleft>
 		<onright>9001</onright>

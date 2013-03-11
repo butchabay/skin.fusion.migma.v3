@@ -12,16 +12,12 @@
     
 <include>DialogBack</include>
 
-  <control type="label">
-	  <label>DialogPluginSettings.xml</label>
-  </control>
     
 	<control type="label" id="20">
 		<description>Header Label</description>
 		<posx>10</posx>
 		<posy>40</posy>
 		<width>500</width>
-		<label>-</label>
 	</control>
 		
 	<control type="grouplist" id="2">

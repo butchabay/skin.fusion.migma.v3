@@ -1170,7 +1170,7 @@
                         <include>thumbfade</include>
                     </control>
                     <control type="label">
-                        <label>-</label>
+                        
                         <font>-</font>
                         <visible>Control.IsVisible(50)</visible>
                     </control>
