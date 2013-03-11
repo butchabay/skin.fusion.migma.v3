@@ -245,7 +245,7 @@
 					<posy>269</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>studio</label>
+					<label>31580</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -265,7 +265,7 @@
 					<posy>329</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>genre</label>
+					<label>31581</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -305,7 +305,7 @@
 					<posy>150</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>system</label>
+					<label>31582</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -325,7 +325,7 @@
 					<posy>210</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>year</label>
+					<label>31583</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -350,7 +350,7 @@
 					<width>430</width>
 					<align>center</align>
 					<font>breadcrumb</font>
-					<label>no extra info available</label>
+					<label>31584</label>
 					<textcolor>itemdetail</textcolor>
 				</control>
 			
@@ -369,7 +369,7 @@
                 <orientation>vertical</orientation>
                 <control type="button" id="96">
                     <description>Play</description>
-                    <label>start</label>
+                    <label>31585</label>
                     <width>142</width>
                     <height>34</height>
                     <align>left</align>
@@ -388,7 +388,7 @@
                 </control>
                 <control type="button" id="97">
                     <description>Get Info</description>
-                    <label>get Info</label>
+                    <label>31586</label>
                     <width>138</width>
                     <height>34</height>
                     <align>left</align>
@@ -406,7 +406,7 @@
                 </control>
                 <control type="button" id="98">
                     <description>get thumb</description>
-                    <label>get thumb</label>
+                    <label>31216</label>
                     <width>138</width>
                     <height>34</height>
                     <align>left</align>
@@ -425,7 +425,7 @@
                 </control>
                 <control type="button" id="99">
                     <description>get fanart</description>
-                    <label>get fanart</label>
+                    <label>31217</label>
                     <width>138</width>
                     <height>34</height>
                     <align>left</align>
@@ -444,7 +444,7 @@
                 </control>
                <!--  <control type="button" id="13">
                     <description>get logo</description>
-                    <label>get logo</label>
+                    <label>31587</label>
                     <width>138</width>
                     <height>34</height>
                     <align>left</align>
@@ -463,7 +463,7 @@
                 </control> -->
                 <!-- <control type="button" id="14">
                     <description>get tune</description>
-                    <label>get tune</label>
+                    <label>31588</label>
                     <width>138</width>
                     <height>34</height>
                     <align>left</align>
@@ -482,7 +482,7 @@
                 </control> -->
                <!--  <control type="button" id="6">
                     <description>refresh</description>
-                    <label>refresh</label>
+                    <label>31218</label>
                     <width>110</width>
                     <height>34</height>
                     <align>left</align>
@@ -499,7 +499,7 @@
                 </control> -->
 				<!--  <control type="button" id="106">
                     <description>artwork downloader</description>
-                    <label>artwork</label>
+                    <label>31589</label>
                     <width>118</width>
                     <height>34</height>
                     <align>left</align>
@@ -520,7 +520,7 @@
                 </control> -->
 				<!--  <control type="button" id="107">
                     <description>artwork downloader</description>
-                    <label>extrafanart</label>
+                    <label>31590</label>
                     <width>146</width>
                     <height>34</height>
                     <align>left</align>

@@ -202,7 +202,86 @@
   
    <!-- DialogFusionSettings9002 -->
   
+  <string id="31528">Add-Ons</string>
+  <string id="31529">video osd subtitle add-on</string>
+  <string id="31530">music osd lyrics add-on</string>
+  <string id="31531">enable original video osd</string>
+  <string id="31532">enable original muisc osd</string>
   
+  <!-- DialogFusionSettings9003 -->
+  
+  <string id="31533">Migma Extras</string>
+  <string id="31534">enable cdart</string>
+  <string id="31535">use logos for tvshows and movies</string>
+  <string id="31536">enable extrafanart for tvshows</string>
+  <string id="31537">use logos for artists</string>
+  <string id="31538">- select music library folder</string>
+  <string id="31539">use only on album level</string>
+  <string id="31540">enable artist slideshow</string>
+  <string id="31541">enable cd wall</string>
+  <string id="31542">- set path:</string>
+  <string id="31543">play trailer in fullscreen mode</string>
+  
+  <!-- DialogFusionSettings9004 -->
+  
+  <string id="31544">Custom Items</string>
+  <string id="31545">Recently added PL</string>
+  <string id="31546">enable custom favourite menu items</string>
+  <string id="31547">enable favourite 1</string>
+  <string id="31548">enable favourite 2</string>
+  <string id="31549">enable favourite 3</string>
+  <string id="31550">enable favourite 4</string>
+  <string id="31551">enable favourite 5</string>
+  <string id="31552">enable favourite 6</string>
+  <string id="31553">enable favourite 7</string>
+  <string id="31554">enable favourite 8</string>
+  <string id="31555">enable favourite 9</string>
+  <string id="31556">enable favourite 10</string>
+  <string id="31557">- set title</string>
+  <string id="31558">- set favourite</string>
+  <string id="31559">- set icon</string>
+  <string id="31560">- set background image</string>
+  <string id="31561">- set backgrounds folder</string>
+  <string id="31562">enable playlist 1</string>
+  <string id="31563">enable playlist 2</string>
+  <string id="31564">enable playlist 3</string>
+  <string id="31565">enable playlist 4</string>
+  <string id="31566">enable playlist 5</string>
+  <string id="31567">enable playlist 6</string>
+  <string id="31568">enable playlist 7</string>
+  <string id="31569">enable playlist 8</string>
+  <string id="31570">enable playlist 9</string>
+  <string id="31571">enable playlist 10</string>
+  <string id="31572">- set playlist</string>
+  <string id="31573">enable custom video playlist menu items</string>
+  <string id="31574">enable recently added playlist 1 - movies</string>
+  <string id="31575">enable recently added playlist 2 - movies</string>
+  <string id="31576">enable recently added playlist 3 - movies</string>
+  <string id="31577">enable recently added playlist 1 - tvshows</string>
+  <string id="31578">enable recently added playlist 2 - tvshows</string>
+  <string id="31579">enable recently added playlist 3 - tvshows</string>
+  
+   <!-- Custom Games Info -->
+  
+  <string id="31580">studio</string>
+  <string id="31581">genre</string>
+  <string id="31582">system</string>
+  <string id="31583">year</string>
+  <string id="31584">no extra info available</string>
+  <string id="31585">start</string>
+  <string id="31586">get info</string>
+  <string id="31587">get logo</string>
+  <string id="31588">get tune</string>
+  <string id="31589">artwork</string>
+  <string id="31590">extrafanart</string>
+  
+  
+   <!-- Dialog Addon Info -->
+  
+  <string id="31591"></string>
+  <string id="31592"></string>
+  
+ 
   
   
   

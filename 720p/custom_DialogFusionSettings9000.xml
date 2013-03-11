@@ -254,7 +254,7 @@
 					</control>
 					<!-- <control type="radiobutton" id="108">
 						<include>FusionSettingsButton</include>
-						<label>[LOWERCASE]- show albums[/LOWERCASE]</label>
+						<label>31426</label>
 						<onclick>Skin.ToggleSetting(HomeWatchlistAlbums)</onclick>
 						<onclick>Skin.Reset(HomeRecentlyAddedAlbums)</onclick>
 						<selected>Skin.HasSetting(HomeWatchlistAlbums)</selected>

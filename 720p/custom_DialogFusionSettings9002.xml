@@ -89,7 +89,7 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>Add-Ons</label>
+						<label>31528</label>
 						<onclick>SetFocus(9001)</onclick>
 					</item>
 				</content>
@@ -110,28 +110,28 @@
 					<onup>9001</onup>
 					<ondown>9001</ondown>
 					<control type="button" id="100">
-						<label>[LOWERCASE]video osd subtitle add-on[/LOWERCASE]</label>
+						<label>31529</label>
 						<label2>[COLOR=white]$INFO[Skin.String(OSDSubtitlePath)][/COLOR]</label2>
 						<onclick>Skin.SetAddon(OSDSubtitlePath,xbmc.python.subtitles)</onclick>
 			            <include>FusionSettingsButton</include>
 						<font>griddetails</font>
 					</control>
 					<control type="button" id="101">
-						<label>[LOWERCASE]music osd lyrics add-on[/LOWERCASE]</label>
+						<label>31530</label>
 						<label2>[COLOR=white]$INFO[Skin.String(OSDLyricsPath)][/COLOR]</label2>
 						<onclick>Skin.SetAddon(OSDLyricsPath,xbmc.python.lyrics)</onclick>
 			            <include>FusionSettingsButton</include>
 						<font>griddetails</font>
 					</control>
 					<control type="radiobutton" id="102">
-						<label>[LOWERCASE]enable original video osd[/LOWERCASE]</label>
+						<label>31531</label>
 						<onclick>Skin.ToggleSetting(oldosd)</onclick>
 						<selected>Skin.HasSetting(oldosd)</selected>
 			            <include>FusionSettingsButton</include>
 						<font>griddetails</font>
 					</control>
 					<control type="radiobutton" id="103">
-						<label>[LOWERCASE]enable original music osd[/LOWERCASE]</label>
+						<label>31532</label>
 						<onclick>Skin.ToggleSetting(oldosdmusic)</onclick>
 						<selected>Skin.HasSetting(oldosdmusic)</selected>
 			            <include>FusionSettingsButton</include>

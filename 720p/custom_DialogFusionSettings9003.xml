@@ -89,7 +89,7 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>Migma Extras</label>
+						<label>31533</label>
 						<onclick>SetFocus(9001)</onclick>
 					</item>
 				</content>
@@ -111,30 +111,30 @@
 					<ondown>9001</ondown>
 					<control type="radiobutton" id="100">
 						<include>FusionSettingsButton</include>
-						<label>enable cdart</label>
+						<label>31534</label>
 						<onclick>Skin.ToggleSetting(UseCDArt)</onclick>
 						<selected>Skin.HasSetting(UseCDArt)</selected>
 					</control>
 					<control type="radiobutton" id="101">
 						<include>FusionSettingsButton</include>
-						<label>use logos for tvshows and movies</label>
+						<label>31535</label>
 						<onclick>Skin.ToggleSetting(Logos)</onclick>
 						<selected>Skin.HasSetting(Logos)</selected>
 					</control>
 					<control type="radiobutton" id="102">
 						<include>FusionSettingsButton</include>
-						<label>use extrafanart for tvshows</label>
+						<label>31536</label>
 						<onclick>Skin.ToggleSetting(ExtraFanartTV)</onclick>
 						<selected>Skin.HasSetting(ExtraFanartTV)</selected>
 					</control>
 					<control type="radiobutton" id="103">
 						<include>FusionSettingsButton</include>
-						<label>use studioflags</label>
+						<label>31526</label>
 						<onclick>Skin.ToggleSetting(StudiosViewtypes)</onclick>
 						<selected>Skin.HasSetting(StudiosViewtypes)</selected>
 					</control>
 					<control type="button" id="104">
-						<label>- [LOWERCASE]select studioflags folder[/LOWERCASE]</label>
+						<label>31527</label>
 						<label2>[COLOR=white]$INFO[Skin.String(StudiosFolder)][/COLOR]</label2>
 						<onclick>Skin.SetPath(StudiosFolder)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -143,12 +143,12 @@
 					</control>
 					<control type="radiobutton" id="105">
 						<include>FusionSettingsButton</include>
-						<label>use music logos</label>
+						<label>31537</label>
 						<onclick>Skin.ToggleSetting(MusicLogos)</onclick>
 						<selected>Skin.HasSetting(MusicLogos)</selected>
 					</control>
 					<control type="button" id="106">
-						<label>- [LOWERCASE]select music library folder[/LOWERCASE]</label>
+						<label>31538</label>
 						<label2>[COLOR=white]$INFO[Skin.String(MusicFolder)][/COLOR]</label2>
 						<onclick>Skin.SetPath(MusicFolder)</onclick>
 			            <include>FusionSettingsButton</include>
@@ -157,14 +157,14 @@
 					</control>
 					<control type="radiobutton" id="107">
 						<include>FusionSettingsButton</include>
-						<label>- only use on album level</label>
+						<label>31539</label>
 						<onclick>Skin.ToggleSetting(AlbumMusicLogos)</onclick>
 						<selected>Skin.HasSetting(AlbumMusicLogos)</selected>
 						<visible>Skin.HasSetting(MusicLogos)</visible>
 					</control>
 					<control type="radiobutton" id="108">
 						<include>FusionSettingsButton</include>
-						<label>enable artist slideshow</label>
+						<label>31540</label>
 						<onclick>Skin.ToggleSetting(Artistslideshow)</onclick>
 						<onclick>Skin.Reset(CDWallNoVisualisation)</onclick>
 						<selected>Skin.HasSetting(Artistslideshow)</selected>
@@ -172,21 +172,21 @@
 					</control>
 					<control type="radiobutton" id="109">
 						<include>FusionSettingsButton</include>
-						<label>enable cd wall</label>
+						<label>31541</label>
 						<onclick>Skin.ToggleSetting(CDWallNoVisualisation)</onclick>
 						<onclick>Skin.Reset(Artistslideshow)</onclick>
 						<selected>Skin.HasSetting(CDWallNoVisualisation)</selected>
 					</control>
 					<control type="button" id="110">
 						<include>FusionSettingsButton</include>
-						<label>- set path:</label>
+						<label>31542</label>
 						<label2>$INFO[Skin.String(CDWall_Folder_Path)]</label2>
 						<onclick>Skin.SetPath(CDWall_Folder_Path)</onclick>
 						<enable>Skin.HasSetting(CDWallNoVisualisation)</enable>
 					</control>
 					<control type="radiobutton" id="111">
 						<include>FusionSettingsButton</include>
-						<label>play fullscreen trailer</label>
+						<label>31543</label>
 						<onclick>Skin.ToggleSetting(fullscreentrailer)</onclick>
 						<selected>Skin.HasSetting(fullscreentrailer)</selected>
 					</control>
