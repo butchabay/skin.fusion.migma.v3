@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <strings>
 
   <string id="31000"></string>
@@ -45,7 +45,7 @@
   <string id="31215">discography</string>
   <string id="31216">get thumb</string>
   <string id="31217">get fanart</string>
-  <string id="31218">REFRESH</string>
+  <string id="31218">refresh</string>
   <string id="31219">DIRECTOR:</string>
   <string id="31220">WRITER:</string>
   <string id="31221">Watched:</string>
@@ -53,9 +53,11 @@
   <string id="31223">YEAR:</string>
   <string id="31224">GENRE:</string>
   <string id="31225">Aired on:</string>
-  <string id="31226">PLAY</string>
-  <string id="31227">VIEW CAST</string>
-  <string id="31228">VIEW TRAILER</string> 
+  <string id="31226">play</string>
+  <string id="31227">cast</string>
+  <string id="31228">trailer</string> 
+  <string id="31229">cinema</string>
+  <string id="31230">tv tunes</string>   
   <string id="31400">Please Wait...</string>
 
   <!-- New Strings 01.03.2013 -->
@@ -280,12 +282,12 @@
   
   <string id="31591">author </string>
   <string id="31592">version </string>
-  <string id="31593">ENABLE</string>
-  <string id="31594">DISABLE</string>
-  <string id="31595">CONFIGURE</string>
-  <string id="31596">UPDATE</string>
-  <string id="31597">CHANGELOG</string>
-  <string id="31598">ROLLBACK</string>
+  <string id="31593">enable</string>
+  <string id="31594">disable</string>
+  <string id="31595">configure</string>
+  <string id="31596">update</string>
+  <string id="31597">changelog</string>
+  <string id="31598">rollback</string>
   
   <!-- Dialog Album Info -->
   
@@ -334,6 +336,24 @@
   <string id="31630">FW 32x</string>
   <string id="31631">PLAYING</string>
   <string id="31632">Close</string>
+  <string id="31633">Season</string>
+  <string id="31634">Episode</string>
+  <string id="31635">First Aired:</string>
+  <string id="31636">Specials</string>
+  <string id="31637">Premiered</string>
+  <string id="31638">Original Title</string>
+  <string id="31639">Director</string>
+  <string id="31640">Credits</string>
+  <string id="31641">Rating</string>
+  <string id="31642">IMDb Top 250:</string>
+  <string id="31643">First Aired</string>
+  <string id="31644">Total Episodes</string>
+  <string id="31645">Watched Episodes</string>
+  <string id="31646">Unwatched Episodes</string>
+  <string id="31647">Watched Episodes</string>
+  <string id="31648">Watched Episodes</string>
+  <string id="31649">Watched Episodes</string>
+  <string id="31650">Minutes</string>
   
   
 </strings>

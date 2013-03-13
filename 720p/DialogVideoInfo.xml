@@ -256,7 +256,7 @@
 				<width>665</width>
 				<scrollsuffix> </scrollsuffix>
 				<font>tagline</font>
-				<label>Season $INFO[ListItem.Season] • Episode $INFO[ListItem.Episode]</label>
+				<label>$LOCALIZE[31633] $INFO[ListItem.Season]$LOCALIZE[31618]$LOCALIZE[31634] $INFO[ListItem.Episode]</label>
 				<label>$INFO[Listitem.FilenameAndPath]</label>
 				<textcolor>fce7e7e7</textcolor>
 				<textcolor>itemdetail</textcolor>
@@ -272,7 +272,7 @@
 				<width>665</width>
 				<scrollsuffix> </scrollsuffix>
 				<font>tagline</font>
-				<label>Specials • Episode $INFO[ListItem.Episode]</label>
+				<label>$LOCALIZE[31636]$LOCALIZE[31618]$LOCALIZE[31634] $INFO[ListItem.Episode]</label>
 				<label>$INFO[Listitem.FilenameAndPath]</label>
 				<textcolor>fce7e7e7</textcolor>
 				<textcolor>itemdetail</textcolor>
@@ -288,7 +288,7 @@
 				<width>665</width>
 				<scrollsuffix> </scrollsuffix>
 				<font>tagline</font>
-				<label>Premiered $INFO[ListItem.Premiered] </label>
+				<label>$LOCALIZE[31637] $INFO[ListItem.Premiered] </label>
 				<label>$INFO[Listitem.FilenameAndPath]</label>
 				<textcolor>fce7e7e7</textcolor>
 				<textcolor>itemdetail</textcolor>
@@ -444,7 +444,7 @@
 					<posy>150</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Original Title</label>
+					<label>$LOCALIZE[31638]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -466,7 +466,7 @@
 					<posy>210</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Director</label>
+					<label>$LOCALIZE[31639]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>			
                 <control type="button" id="15">
@@ -494,7 +494,7 @@
 					<posy>269</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Credits</label>
+					<label>$LOCALIZE[31640]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -515,7 +515,7 @@
 					<posy>330</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Rating</label>
+					<label>$LOCALIZE[31641]</label>
 					<visible>!IsEmpty(ListItem.Rating)</visible>
 					<textcolor>fce7e7e7</textcolor>
 					<textcolor>itemdetail</textcolor>
@@ -545,7 +545,7 @@
 					<width min="0"  max="360">auto</width>
 					<scrollsuffix> / </scrollsuffix>
 					<font>homemenu3</font>
-					<label> • IMDb Top 250: $INFO[ListItem.Top250]</label>
+					<label>$LOCALIZE[31618]$LOCALIZE[31642] $INFO[ListItem.Top250]</label>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
 					<textcolor>white</textcolor>
 				</control>
@@ -564,7 +564,7 @@
 					<posy>150</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>First Aired</label>
+					<label>$LOCALIZE[31643]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -593,7 +593,7 @@
 					<posy>150</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Total Episodes</label>
+					<label>$LOCALIZE[31644]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -615,7 +615,7 @@
 					<posy>210</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Watched Episodes</label>
+					<label>$LOCALIZE[31645]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -637,7 +637,7 @@
 					<posy>269</posy>
 					<width>368</width>
 					<font>homemenu3</font>
-					<label>Unwatched Episodes</label>
+					<label>$LOCALIZE[31646]</label>
 					<textcolor>fce7e7e7</textcolor>
 				</control>
 				<control type="label" id="20">
@@ -663,7 +663,7 @@
 					<width>430</width>
 					<align>center</align>
 					<font>breadcrumb</font>
-					<label>no extra info available</label>
+					<label>$LOCALIZE[31584]</label>
 					<textcolor>itemdetail</textcolor>
 				</control>
 			
@@ -712,7 +712,7 @@
 			<defaultcontrol>1</defaultcontrol>
                 <posx>8</posx>
                 <posy>420</posy>
-                <width>185</width>
+                <width>200</width>
                 <height>254</height>
                 <itemgap>2</itemgap>
                 <onup>15</onup>
@@ -722,14 +722,14 @@
                 <orientation>vertical</orientation>
                 <control type="button" id="8">
                     <description>Play</description>
-                    <label>play</label>
-                    <width>82</width>
+                    <label>31226</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFo.png</texturefocus>
+                    <texturefocus>info/ButtonFoLong.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textcolor>itemdetail3</textcolor>
                     <focusedcolor>fce7e7e7</focusedcolor>
@@ -740,8 +740,8 @@
                 </control>
                 <control type="button" id="107">
                     <description>Play CE</description>
-                    <label>cinema</label>
-                    <width>110</width>
+                    <label>31229</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
@@ -761,14 +761,14 @@
                 </control>
                 <control type="button" id="97">
                     <description>Play Trailer</description>
-                    <label>trailer</label>
-                    <width>100</width>
+                    <label>31228</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFo.png</texturefocus>
+                    <texturefocus>info/ButtonFoLong.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textcolor>itemdetail3</textcolor>
                     <focusedcolor>fce7e7e7</focusedcolor>
@@ -782,9 +782,9 @@
                 </control>
                 <control type="togglebutton" id="96">
                     <description>Cast/Crew</description>
-                    <width>130</width>
+                    <width>150</width>
                     <height>34</height>
-                    <label>view cast</label>
+                    <label>31227</label>
                     <altlabel>view plot</altlabel>
                     <textcolor>itemdetail3</textcolor>
                     <focusedcolor>fce7e7e7</focusedcolor>
@@ -804,9 +804,9 @@
                     <enable>!IsEmpty(ListItem.Cast)</enable>
                 </control>
                 <control type="button" id="10">
-                    <description>get thumb</description>
-                    <label>get thumb</label>
-                    <width>138</width>
+                    <description>choose art</description>
+                    <label>[LOWERCASE]$LOCALIZE[13511][/LOWERCASE]</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
@@ -820,46 +820,10 @@
                     <colordiffuse>2DFFFFFF</colordiffuse>
                     <font>plot</font>
                 </control>
-                <control type="button" id="12">
-                    <description>get fanart</description>
-                    <label>get fanart</label>
-                    <width>138</width>
-                    <height>34</height>
-                    <align>left</align>
-                    <aligny>top</aligny>
-                    <textoffsetx>20</textoffsetx>
-                    <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFoLong.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textcolor>itemdetail3</textcolor>
-                    <focusedcolor>fce7e7e7</focusedcolor>
-                    <disabledcolor>04ffffff</disabledcolor>
-                    <colordiffuse>2DFFFFFF</colordiffuse>
-                    <font>plot</font>
-                </control>
-               <!--  <control type="button" id="13">
-                    <description>get logo</description>
-                    <label>get logo</label>
-                    <width>138</width>
-                    <height>34</height>
-                    <align>left</align>
-                    <aligny>top</aligny>
-                    <textoffsetx>20</textoffsetx>
-                    <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFoLong.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textcolor>itemdetail3</textcolor>
-                    <focusedcolor>fce7e7e7</focusedcolor>
-                    <disabledcolor>04ffffff</disabledcolor>
-                    <colordiffuse>2DFFFFFF</colordiffuse>
-                    <font>plot</font>
-					<onclick>XBMC.RunScript(script.logo-downloader,mode=solo,logo=True,clearart=True,showthumb=landscape.jpg,poster=poster.jpg,banner=banner.jpg,showname=$INFO[ListItem.TVShowTitle])</onclick>
-					<visible>Container.Content(tvshows)</visible>
-                </control> -->
                 <control type="button" id="14">
                     <description>get tune</description>
-                    <label>get tune</label>
-                    <width>138</width>
+                    <label>31230</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
@@ -877,14 +841,14 @@
                 </control>
                 <control type="button" id="6">
                     <description>refresh</description>
-                    <label>refresh</label>
-                    <width>110</width>
+                    <label>31218</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFo.png</texturefocus>
+                    <texturefocus>info/ButtonFoLong.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textcolor>itemdetail3</textcolor>
                     <focusedcolor>fce7e7e7</focusedcolor>
@@ -894,14 +858,14 @@
                 </control>
 				 <control type="button" id="106">
                     <description>artwork downloader</description>
-                    <label>artwork</label>
-                    <width>118</width>
+                    <label>31589</label>
+                    <width>150</width>
                     <height>34</height>
                     <align>left</align>
                     <aligny>top</aligny>
                     <textoffsetx>20</textoffsetx>
                     <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFo.png</texturefocus>
+                    <texturefocus>info/ButtonFoLong.png</texturefocus>
                     <texturenofocus>-</texturenofocus>
                     <textcolor>itemdetail3</textcolor>
                     <focusedcolor>fce7e7e7</focusedcolor>
@@ -909,31 +873,10 @@
                     <colordiffuse>2DFFFFFF</colordiffuse>
                     <font>plot</font>
 					<onclick>Dialog.Close(MovieInformation)</onclick>
-					<onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=movie,mode=gui,medianame=$INFO[ListItem.Title],mediapath=$INFO[ListItem.Path])</onclick>
-					<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader,mode=gui, mediatype=tvshow, medianame=$INFO[ListItem.TVShowTitle])</onclick>
-		            <visible>System.HasAddon(script.artwork.downloader)</visible>
-					<visible>!SubString(Container.FolderPath,plugin://plugin.video.the.trailers)</visible>
-                </control>
-				 <control type="button" id="108">
-                    <description>artwork downloader</description>
-                    <label>extrafanart</label>
-                    <width>148</width>
-                    <height>34</height>
-                    <align>left</align>
-                    <aligny>top</aligny>
-                    <textoffsetx>20</textoffsetx>
-                    <textoffsety>1</textoffsety>
-                    <texturefocus>info/ButtonFo.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textcolor>itemdetail3</textcolor>
-                    <focusedcolor>fce7e7e7</focusedcolor>
-                    <disabledcolor>04ffffff</disabledcolor>
-                    <colordiffuse>2DFFFFFF</colordiffuse>
-                    <font>plot</font>
-					<onclick>Dialog.Close(MovieInformation)</onclick>
-					<onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=movie,medianame=$INFO[ListItem.Title],mediapath=$INFO[ListItem.Path],extrafanart)</onclick>
-					<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=tvshow,medianame=$INFO[ListItem.TVShowTitle],extrafanart)</onclick>
-		            <visible>System.HasAddon(script.artwork.downloader)</visible>
+					<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+				    <onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+				    <onclick condition="Container.Content(musicvideos)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=musicvideo, dbid=$INFO[ListItem.DBID])</onclick>
+				    <visible>[Container.Content(tvshows) | Container.Content(movies) | Container.Content(musicvideos)] + system.hasaddon(script.artwork.downloader)</visible>
 					<visible>!SubString(Container.FolderPath,plugin://plugin.video.the.trailers)</visible>
                 </control>
             </control>
@@ -951,9 +894,9 @@
 				<!-- PLOT -->
                 <control type="textbox" id="4">
                     <description>Plot</description>
-                    <posx>155</posx>
+                    <posx>175</posx>
                     <posy>400</posy>
-                    <width>696</width>
+                    <width>685</width>
                     <height>240</height>
                     <spinposx>500</spinposx>
                     <spinposy>-30</spinposy>
@@ -997,7 +940,7 @@
 				<posx>110</posx>
 				<posy>59r</posy>
 				<width>630</width>
-				<label>$INFO[ListItem.Studio,, • ]$INFO[ListItem.Year]</label>
+				<label>$INFO[ListItem.Studio,,$LOCALIZE[31618]]$INFO[ListItem.Year]</label>
 				<font>homemenu3</font>
 				<textcolor>itemdetail3</textcolor>
 				<scroll>false</scroll>
@@ -1032,7 +975,7 @@
 				<posx>110</posx>
 				<posy>34r</posy>
 				<width>630</width>
-				<label>$INFO[ListItem.Duration,, Minutes • ]$INFO[ListItem.Genre]</label>
+				<label>$INFO[ListItem.Duration,, $LOCALIZE[31650]$LOCALIZE[31618]]$INFO[ListItem.Genre]</label>
 				<font>recent2</font>
 				<textcolor>itemdetail3</textcolor>
 				<scroll>false</scroll>
@@ -1052,7 +995,7 @@
 				<posx>16</posx>
 				<posy>59r</posy>
 				<width>630</width>
-				<label>$INFO[ListItem.Studio,, • ]$INFO[ListItem.Year]</label>
+				<label>$INFO[ListItem.Studio,,$LOCALIZE[31618]]$INFO[ListItem.Year]</label>
 				<font>homemenu3</font>
 				<textcolor>itemdetail3</textcolor>
 				<scroll>false</scroll>
@@ -1087,7 +1030,7 @@
 				<posx>16</posx>
 				<posy>34r</posy>
 				<width>630</width>
-				<label>$INFO[ListItem.Duration,, Minutes • ]$INFO[ListItem.Genre]</label>
+				<label>$INFO[ListItem.Duration,, $LOCALIZE[31650]$LOCALIZE[31618]]$INFO[ListItem.Genre]</label>
 				<font>recent2</font>
 				<textcolor>itemdetail3</textcolor>
 				<scroll>false</scroll>

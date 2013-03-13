@@ -994,7 +994,7 @@
 							<posy>0</posy>
 							<width min="80" max="530">auto</width>
 							<font>about</font>
-							<label>[COLOR=ffc0c0c0]Season $INFO[VideoPlayer.Season,, /][/COLOR]</label>
+							<label>[COLOR=ffc0c0c0]$LOCALIZE[31633] $INFO[VideoPlayer.Season,, /][/COLOR]</label>
 							<textcolor>ffc0c0c0</textcolor>
 							<align>left</align>
 							<scroll>false</scroll>
@@ -1004,7 +1004,7 @@
 							<posy>0</posy>
 							<width min="10" max="530">auto</width>
 							<font>about</font>
-							<label>[COLOR=ffc0c0c0]Episode $INFO[VideoPlayer.Episode][/COLOR]</label>
+							<label>[COLOR=ffc0c0c0]$LOCALIZE[31634] $INFO[VideoPlayer.Episode][/COLOR]</label>
 							<textcolor>white</textcolor>
 							<align>left</align>
 							<scroll>false</scroll>
@@ -1015,7 +1015,7 @@
 						<posx>95</posx>
 						<posy>225r</posy>
 						<width>820</width>
-						<label>First Aired: [COLOR=ffa0a0a0]$INFO[VideoPlayer.Premiered][/COLOR]</label>
+						<label>$LOCALIZE[31635] [COLOR=ffa0a0a0]$INFO[VideoPlayer.Premiered][/COLOR]</label>
 						<font>about</font>
 						<textcolor>ffc0c0c0</textcolor>
 						<align>left</align>

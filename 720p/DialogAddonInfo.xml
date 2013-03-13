@@ -175,9 +175,9 @@
 		<control type="textbox">
 			<description>Disclaimer</description>
 			<posx>130</posx>
-			<posy>610</posy>
+			<posy>690</posy>
 			<width>580</width>
-			<height>58</height>
+			<height>52</height>
 			<font>plot</font>
 			<align>-</align>
 			<textcolor>white</textcolor>
@@ -256,7 +256,6 @@
 		<focusedcolor>itemdetailb</focusedcolor>
 		<disabledcolor>22ffffff</disabledcolor>
 		<colordiffuse>85FFFFFF</colordiffuse>
-		<font>plot</font>
 		<font>plot</font>
 		<onleft>60</onleft>
 		<onright>60</onright>
