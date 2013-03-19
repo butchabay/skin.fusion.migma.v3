@@ -1533,7 +1533,7 @@
 					
 					  <item id="10">
 						  <description>Programs</description>
-						  <label>[LOWERCASE]Programs[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31658][/LOWERCASE]</label>
 						  <icon>Home/icons/programs.png</icon>
 						  <onclick>xbmc.activatewindow(programs)</onclick>
 						  <visible>!Skin.HasSetting(ProgramsHome)</visible>
@@ -1542,7 +1542,7 @@
 			  
 					  <item id="8">
 						  <description>Add-Ons</description>
-						  <label>[LOWERCASE]Add-Ons[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31659][/LOWERCASE]</label>
 						  <icon>Home/icons/addons.png</icon>
 						  <onclick>xbmc.activatewindow(addonbrowser)</onclick>
 						  <visible>!Skin.HasSetting(AddonHome)</visible>
@@ -1556,7 +1556,7 @@
 					  </item>
 					  <item id="15">
 						  <description>Power</description>
-						  <label>power</label>
+						  <label>[LOWERCASE]$LOCALIZE[31660][/LOWERCASE]</label>
 						  <icon>Home/icons/power.png</icon>
 						  <onclick>xbmc.activatewindow(shutdownmenu)</onclick>
 						    <visible>!Skin.HasSetting(PowerHome)</visible>
@@ -1579,7 +1579,7 @@
 					  </item>
 					  <item id="2">
 						  <description>Movies</description>
-						  <label>[LOWERCASE]Movies[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31661][/LOWERCASE]</label>
 						  <icon>Home/icons/movies.png</icon>						  
 						  <onclick>xbmc.activatewindow(videolibrary,movies)</onclick>
 						  <visible>!Skin.HasSetting(MovieHome)</visible>
@@ -1588,7 +1588,7 @@
 					  
 					  <item id="2">
 						  <description>Movies</description>
-						  <label>[LOWERCASE]Movies[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31661][/LOWERCASE]</label>
 						  <icon>Home/icons/movies.png</icon>						  
 						  <onclick>xbmc.activatewindow(videolibrary,movietitles,return)</onclick>
 						  <visible>!Skin.HasSetting(MovieHome)</visible>
@@ -1599,7 +1599,7 @@
 					  
 					  <item id="14">
 						  <description>HD Movies</description>
-						  <label>[LOWERCASE]HD Movies[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31016][/LOWERCASE]</label>
 						  <icon>Home/icons/hdmovies.png</icon>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hdmovies_hmplayx.xsp,return)</onclick>
 						  <visible>Skin.HasSetting(HDMoviesHome)</visible>
@@ -1627,7 +1627,7 @@
 					  </item>
 					  <item id="3">
 						  <description>TV Shows</description>
-						  <label>[LOWERCASE]TV Shows[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31662][/LOWERCASE]</label>
 						  <icon>Home/icons/tv.png</icon>
 						  <onclick>xbmc.activatewindow(videolibrary,tvshows)</onclick>
 						  <visible>!Skin.HasSetting(TVHome)</visible>
@@ -1636,7 +1636,7 @@
 
 					  <item id="3">
 						  <description>TV Shows</description>
-						  <label>[LOWERCASE]TV Shows[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31662][/LOWERCASE]</label>
 						  <icon>Home/icons/tv.png</icon>
 						  <onclick>xbmc.activatewindow(videolibrary,tvshowtitles,return)</onclick>
 						  <visible>!Skin.HasSetting(TVHome)</visible>
@@ -1668,7 +1668,7 @@
 					  
 					  <item id="13">
 						  <description>On Demand</description>
-						  <label>[LOWERCASE]On Demand[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31663][/LOWERCASE]</label>
 						  <icon>Home/icons/vod.png</icon>
 						  <onclick>xbmc.activatewindow(videolibrary,addons://sources/video/,return)</onclick>
 						  <visible>Skin.HasSetting(VODHome)</visible>
@@ -1720,7 +1720,7 @@
 					  
 					  <item id="11">
 						  <description>Games</description>
-						  <label>[LOWERCASE]Games[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31664][/LOWERCASE]</label>
 						  <icon>Home/icons/games2.png</icon>
 						  <onclick>xbmc.activatewindow(10001,plugin://$INFO[Skin.String(HomeGames_Addon)]/,return)</onclick>
 						  <visible>Skin.HasSetting(GamesHome)</visible>
@@ -1728,7 +1728,7 @@
 					  
 					  <item id="10">
 						  <description>Programs</description>
-						  <label>[LOWERCASE]Programs[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31658][/LOWERCASE]</label>
 						  <icon>Home/icons/programs.png</icon>
 						  <onclick>xbmc.activatewindow(programs)</onclick>
 						  <visible>!Skin.HasSetting(ProgramsHome)</visible>
@@ -1737,7 +1737,7 @@
 					  
 					  <item id="12">
 						  <description>Play DVD</description>
-						  <label>[LOWERCASE]play disc[/LOWERCASE]</label>
+						  <label>[LOWERCASE]$LOCALIZE[31665][/LOWERCASE]</label>
 						  <icon>Home/icons/dvd.png</icon>
 						  <onclick>PlayDVD()</onclick>
 						  <visible>System.HasMediaDVD</visible>
@@ -2392,7 +2392,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -2421,7 +2421,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(640).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(640).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2438,7 +2438,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(640).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(640).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2452,56 +2452,56 @@
 			  
 					  <item id="1">
 						  <description>TITLES</description>
-						  <label>by title</label>
+						  <label>[LOWERCASE]$LOCALIZE[31000][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,movietitles,return)</onclick>
 						  <visible>!Skin.HasSetting(MoviesHomeDefault)</visible>
 					  </item>	
 					  				  
 					  <item id="2">
 						  <description>GENRES</description>
-						  <label>by genre</label>
+						  <label>[LOWERCASE]$LOCALIZE[31004][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieGenres,return)</onclick>
 					  </item>
 
 					  <item id="3">
 						  <description>YEARS</description>
-						  <label>by year</label>
+						  <label>[LOWERCASE]$LOCALIZE[31003][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieYears,return)</onclick>
 					  </item>
 					  
 					  <item id="4">
 						  <description>STUDIOS</description>
-						  <label>by studio</label>
+						  <label>[LOWERCASE]$LOCALIZE[31010][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieStudios,return)</onclick>
 					  </item>
 					  
 					  <item id="5">
 						  <description>SETS</description>
-						  <label>by set</label>
+						  <label>[LOWERCASE]$LOCALIZE[31011][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieSets,return)</onclick>
 					  </item>
 					  
 					  <item id="6">
 						  <description>DIRECTORS</description>
-						  <label>by director</label>
+						  <label>[LOWERCASE]$LOCALIZE[31009][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieDirectors,return)</onclick>
 					  </item>
 					  
 					  <item id="7">
 						  <description>ACTORS</description>
-						  <label>by actor</label>
+						  <label>[LOWERCASE]$LOCALIZE[31008][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,MovieActors,return)</onclick>
 					  </item>
 					  
 					  <item id="8">
 						  <description>RECENTLY ADDED</description>
-						  <label>recently added</label>
+						  <label>[LOWERCASE]$LOCALIZE[31001][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,RecentlyAddedMovies,return)</onclick>
 					  </item>
 					  
 					  <item id="9">
 						  <description>IN PROGRESS...</description>
-						  <label>in progress...</label>
+						  <label>[LOWERCASE]$LOCALIZE[31019][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/moviesinprogress.xsp,return)</onclick>
 					  </item>
 					  
@@ -2540,7 +2540,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -2569,7 +2569,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(642).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(642).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2586,7 +2586,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(642).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(642).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2600,44 +2600,44 @@
 			  
 					  <item id="1">
 						  <description>TITLES</description>
-						  <label>by title</label>
+						  <label>[LOWERCASE]$LOCALIZE[31000][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,TvShowTitles,return)</onclick>
 						  <visible>!Skin.HasSetting(TVHomeDefault)</visible>
 					  </item>	
 					  				  
 					  <item id="2">
 						  <description>GENRES</description>
-						  <label>by genre</label>
+						  <label>[LOWERCASE]$LOCALIZE[31004][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,TvShowGenres,return)</onclick>
 					  </item>
 
 					  <item id="3">
 						  <description>YEARS</description>
-						  <label>by year</label>
+						  <label>[LOWERCASE]$LOCALIZE[31003][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,TvShowYears,return)</onclick>
 					  </item>
 					  
 					  <item id="4">
 						  <description>STUDIOS</description>
-						  <label>by network</label>
+						  <label>[LOWERCASE]$LOCALIZE[31015][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,TvShowStudios,return)</onclick>
 					  </item>
 
 					  <item id="5">
 						  <description>ACTORS</description>
-						  <label>by actor</label>
+						  <label>[LOWERCASE]$LOCALIZE[31008][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,TvShowActors,return)</onclick>
 					  </item>
 					  
 					  <item id="6">
 						  <description>RECENTLY ADDED</description>
-						  <label>recently added</label>
+						  <label>[LOWERCASE]$LOCALIZE[31001][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,RecentlyAddedEpisodes,return)</onclick>
 					  </item>
 					  
 					  <item id="7">
 						  <description>IN PROGRESS...</description>
-						  <label>in progress...</label>
+						  <label>[LOWERCASE]$LOCALIZE[31019][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/episodesinprogress.xsp,return)</onclick>
 					  </item>
 					  
@@ -2676,7 +2676,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -2705,7 +2705,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(644).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(644).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2720,7 +2720,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(644).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(644).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2732,22 +2732,22 @@
 			  
 					  <item id="1">
 						  <description>files</description>
-						  <label>files</label>
+						  <label>[LOWERCASE]$LOCALIZE[31666][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,files,return)</onclick>
 					  </item>	
 					  <item id="2">
 						  <description>playlists</description>
-						  <label>playlists</label>
+						  <label>[LOWERCASE]$LOCALIZE[31667][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,playlists,return)</onclick>
 					  </item>					  				  
 					  <item id="3">
 						  <description>add-ons</description>
-						  <label>online</label>
+						  <label>[LOWERCASE]$LOCALIZE[31668][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videolibrary,addons://sources/video/,return)</onclick>
 					  </item>	
 					  <item id="4">
 						  <description>settings</description>
-						  <label>settings</label>
+						  <label>[LOWERCASE]$LOCALIZE[31669][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(videossettings,return)</onclick>
 					  </item>					  
 					  
@@ -2786,7 +2786,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -2814,7 +2814,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(646).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(646).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2831,7 +2831,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(646).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(646).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2844,56 +2844,56 @@
 					<content>
 			  
 					  <item id="1">
-						  <description>Add-Ons</description>
-						  <label>by artist</label>
+						  <description>Artists</description>
+						  <label>[LOWERCASE]$LOCALIZE[31005][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,artists,return)</onclick>
 					  </item>	
 					  				  
 					  <item id="2">
-						  <description>Settings</description>
-						  <label>by album</label>
+						  <description>Albums</description>
+						  <label>[LOWERCASE]$LOCALIZE[31006][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,albums,return)</onclick>
 					  </item>
 
 					  <item id="3">
-						  <description>Videos</description>
-						  <label>by song</label>
+						  <description>Songs</description>
+						  <label>[LOWERCASE]$LOCALIZE[31007][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,songs,return)</onclick>
 					  </item>
 					  
 					  <item id="4">
-						  <description>Add-Ons</description>
-						  <label>by genre</label>
+						  <description>Genres</description>
+						  <label>[LOWERCASE]$LOCALIZE[31004][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,genres,return)</onclick>
 					  </item>	
 					  				  
 					  <item id="5">
-						  <description>Settings</description>
-						  <label>by year</label>
+						  <description>Year</description>
+						  <label>[LOWERCASE]$LOCALIZE[31003][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,years,return)</onclick>
 					  </item>
 
 					  <item id="6">
-						  <description>Videos</description>
-						  <label>top 100</label>
+						  <description>TOP 100</description>
+						  <label>[LOWERCASE]$LOCALIZE[31670][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,Top100,return)</onclick>
 					  </item>
 					  
 					  <item id="7">
-						  <description>Add-Ons</description>
-						  <label>online</label>
+						  <description>ONLINE</description>
+						  <label>[LOWERCASE]$LOCALIZE[31668][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(musicfiles,addons://sources/audio/,return)</onclick>
 					  </item>	
 					  				  
 					  <item id="8">
-						  <description>Settings</description>
-						  <label>recently added</label>
+						  <description>Recently Added</description>
+						  <label>[LOWERCASE]$LOCALIZE[31001][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,RecentlyAddedAlbums,return)</onclick>
 					  </item>
 
 					  <item id="9">
-						  <description>Videos</description>
-						  <label>recently played</label>
+						  <description>Recently Played</description>
+						  <label>[LOWERCASE]$LOCALIZE[31671][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(MusicLibrary,RecentlyPlayedAlbums,return)</onclick>
 					  </item>
 
@@ -2932,7 +2932,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -2960,7 +2960,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(648).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(648).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2975,7 +2975,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(648).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(648).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -2987,44 +2987,44 @@
 					
 					  <item id="1">
 						  <description>Skin Settings</description>
-						  <label>Skin Settings</label>
+						  <label>[LOWERCASE]$LOCALIZE[31672][/LOWERCASE]</label>
           			      <onclick>ActivateWindow(56)</onclick>
 					  </item>	
 			  
 					  <item id="2">
 						  <description>Favorites</description>
-						  <label>Favorites</label>
+						  <label>[LOWERCASE]$LOCALIZE[31673][/LOWERCASE]</label>
           			      <onclick>ActivateWindow(Favourites)</onclick>
 					  </item>	
 					  				  
 					  <item id="3">
 						  <description>File Manager</description>
-						  <label>File Manager</label>
+						  <label>[LOWERCASE]$LOCALIZE[31674][/LOWERCASE]</label>
           			      <onclick>ActivateWindow(FileManager)</onclick>
 					  </item>
 
 					  <item id="4">
 						  <description>System Info</description>
-						  <label>System Info</label>
+						  <label>[LOWERCASE]$LOCALIZE[31675][/LOWERCASE]</label>
           			      <onclick>ActivateWindow(SystemInfo)</onclick>
 					  </item>
 					  
 					  <item id="5">
 						  <description>Eject Disc</description>
-						  <label>Eject Disc</label>
+						  <label>[LOWERCASE]$LOCALIZE[31676][/LOWERCASE]</label>
 						  <onclick>EjectTray()</onclick>
 					  </item>
 					  	
 					  <item id="6">
 						  <description>Logoff</description>
-						  <label>Logoff</label>
+						  <label>[LOWERCASE]$LOCALIZE[31677][/LOWERCASE]</label>
 						  <onclick>System.LogOff</onclick>
 						  <visible>System.HasLoginScreen</visible>
 					  </item>	
 					  				  				  
 					  <item id="7">
 						  <description>Power</description>
-						  <label>Power</label>
+						  <label>[LOWERCASE]$LOCALIZE[31660][/LOWERCASE]</label>
 						  <onclick>ActivateWindow(ShutdownMenu)</onclick>
 					  </item>
 					  
@@ -3063,7 +3063,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3092,7 +3092,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(650).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(650).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3107,7 +3107,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(650).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(650).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3119,17 +3119,17 @@
 			  
 					  <item id="1">
 						  <description>refresh</description>
-						  <label>refresh data</label>
+						  <label>[LOWERCASE]$LOCALIZE[31678][/LOWERCASE]</label>
 						  <onclick>Weather.Refresh</onclick>
 					  </item>	
 					  <item id="2">
 						  <description>next location</description>
-						  <label>next location</label>
+						  <label>[LOWERCASE]$LOCALIZE[31679][/LOWERCASE]</label>
 						  <onclick>Weather.LocationNext</onclick>
 					  </item>					  				  
 					  <item id="3">
 						  <description>settings</description>
-						  <label>settings</label>
+						  <label>[LOWERCASE]$LOCALIZE[31669][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(weathersettings,return)</onclick>
 					  </item>					  
 					  
@@ -3168,7 +3168,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3197,7 +3197,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(652).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(652).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3214,7 +3214,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(652).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(652).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3228,12 +3228,12 @@
 			  
 					  <item id="1">
 						  <description>update addons</description>
-						  <label>update add-ons</label>
+						  <label>[LOWERCASE]$LOCALIZE[31680][/LOWERCASE]</label>
 						  <onclick>UpdateLocalAddons</onclick>
 					  </item>	
 					  <item id="2">
 						  <description>chech updates</description>
-						  <label>update repos</label>
+						  <label>[LOWERCASE]$LOCALIZE[31681][/LOWERCASE]</label>
 						  <onclick>UpdateAddonRepos</onclick>
 					  </item>				  
 					  
@@ -3273,7 +3273,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3302,7 +3302,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(640).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(640).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3319,7 +3319,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(640).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(640).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3333,27 +3333,27 @@
 			  
 					  <item id="1">
 						  <description>1080p only</description>
-						  <label>1080p only</label>
+						  <label>[LOWERCASE]$LOCALIZE[31682][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hd1080p_hmplayx.xsp,return)</onclick>
 					  </item>
 					  <item id="2">
 						  <description>720p only</description>
-						  <label>720p only</label>
+						  <label>[LOWERCASE]$LOCALIZE[31683][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hd720p_hmplayx.xsp,return)</onclick>
 					  </item>
 					  <item id="3">
 						  <description>widescreen only</description>
-						  <label>widescreen only</label>
+						  <label>[LOWERCASE]$LOCALIZE[31684][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hdwidescreen_hmplayx.xsp,return)</onclick>
 					  </item>			 
 					  <item id="4">
 						  <description>surround only</description>
-						  <label>surround only</label>
+						  <label>[LOWERCASE]$LOCALIZE[31685][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hdsurroundsound_hmplayx.xsp,return)</onclick>
 					  </item>
 					  <item id="5">
 						  <description>IN PROGRESS...</description>
-						  <label>in progress...</label>
+						  <label>[LOWERCASE]$LOCALIZE[31019][/LOWERCASE]</label>
 						  <onclick>xbmc.activatewindow(10025,special://skin/extras/playlists/hdmoviesinprogress_hmplayx.xsp,return)</onclick>
 					  </item>
 					</content>		
@@ -3391,7 +3391,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3420,7 +3420,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(655).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(655).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3437,7 +3437,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(655).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(655).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3451,54 +3451,54 @@
 			  
 					  <item id="1">
 						  <description>Exit</description>
-						  <label>exit</label>
+						  <label>[LOWERCASE]$LOCALIZE[31686][/LOWERCASE]</label>
 						  <onclick>XBMC.Quit()</onclick>
 					  </item>
 					  <item id="2">
 						  <description>Shutdown</description>
-						  <label>shutdown</label>
+						  <label>[LOWERCASE]$LOCALIZE[31687][/LOWERCASE]</label>
 						  <onclick>XBMC.Shutdown()</onclick>
 					  </item>
 					  <item id="3">
 						  <description>suspend</description>
-						  <label>suspend</label>
+						  <label>[LOWERCASE]$LOCALIZE[31688][/LOWERCASE]</label>
 						  <onclick>XBMC.Suspend()</onclick>
 					  </item>			 
 					  <item id="4">
 						  <description>shutdown timer</description>
-						  <label>shutdown timer</label>
+						  <label>[LOWERCASE]$LOCALIZE[31689][/LOWERCASE]</label>
 						  <onclick>XBMC.AlarmClock(shutdowntimer,XBMC.Shutdown())</onclick>
 					  </item>
 					  <item id="5">
 						  <description>shutdown timer cancel</description>
-						  <label>cancel timer</label>
+						  <label>[LOWERCASE]$LOCALIZE[31690][/LOWERCASE]</label>
 						  <onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
 						  <visible>System.HasAlarm(shutdowntimer)</visible>
 					  </item>
-					 <!--   <item id="6">
+					  <item id="6">
 						  <description>enter master mode</description>
-						  <label>enter master mode</label>
+						  <label>[LOWERCASE]$LOCALIZE[31691][/LOWERCASE]</label>
 						  <onclick>xbmc.mastermode</onclick>
 						  <visible>System.HasLocks</visible>
 					  </item>
 					  <item id="7">
 						  <description>log off profile</description>
-						  <label>$LOCALIZE[20126] $INFO[system.profilename]</label>
+						  <label>[LOWERCASE]$LOCALIZE[20126] $INFO[system.profilename][/LOWERCASE]</label>
 						  <onclick>dialog.close(all,true)</onclick>
 					      <onclick>System.LogOff</onclick>
 						  <visible>System.HasLoginScreen</visible>
 					  </item>
 					   <item id="8">
 						  <description>Settings</description>
-						  <label>Settings</label>
+						  <label>[LOWERCASE]$LOCALIZE[31669][/LOWERCASE]</label>
           			      <onclick>xbmc.activatewindow(settings)</onclick>
 						  <visible>System.HasLoginScreen</visible>
 					  </item>	
 					  <item id="9">
 						  <description>File Manager</description>
-						  <label>File Manager</label>
+						  <label>[LOWERCASE]$LOCALIZE[31674][/LOWERCASE]</label>
           			      <onclick>ActivateWindow(FileManager)</onclick>
-					  </item> -->
+					  </item>
 					  
 					</content>		
 				</control>
@@ -3535,7 +3535,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3551,7 +3551,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(657).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(657).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3568,7 +3568,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(657).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(657).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3582,7 +3582,6 @@
 			  
 					  <item id="1">
 						  <description>Recently Added</description>
-						  <label></label>
 						  <onclick>3030</onclick>
 					  </item> 
 					</content>		
@@ -3620,7 +3619,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3636,7 +3635,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(658).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(658).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3653,7 +3652,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(658).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(658).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3667,8 +3666,7 @@
 			  
 					  <item id="1">
 						  <description>Fake Recently Added</description>
-						  <label></label>
-						  <onclick>-</onclick>
+						  <onclick>noop</onclick>
 					  </item>
 					</content>		
 				</control>
@@ -3705,7 +3703,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3721,7 +3719,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(659).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(659).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3738,7 +3736,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(659).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(659).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3751,8 +3749,7 @@
 					<content>
 					  <item id="1">
 						  <description>Fake Recently Added</description>
-						  <label></label>
-						  <onclick>-</onclick>
+						  <onclick>noop</onclick>
 					  </item>
 					</content>		
 				</control>
@@ -3790,7 +3787,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3806,7 +3803,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(660).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(660).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3823,7 +3820,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(660).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(660).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3836,8 +3833,7 @@
 					<content>
 					  <item id="1">
 						  <description>Fake Recently Added</description>
-						  <label></label>
-						  <onclick>-</onclick>
+						  <onclick>noop</onclick>
 					  </item>
 					</content>		
 				</control>
@@ -3875,7 +3871,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3891,7 +3887,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(661).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(661).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3908,7 +3904,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(661).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(661).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3921,8 +3917,7 @@
 					<content>
 					  <item id="1">
 						  <description>Fake Recently Added</description>
-						  <label></label>
-						  <onclick>-</onclick>
+						  <onclick>noop</onclick>
 					  </item>
 					</content>		
 				</control>
@@ -3959,7 +3954,7 @@
 						<font>homemenu3</font>
 						<textcolor>cf707070</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>
@@ -3975,7 +3970,7 @@
 						<textcolor>cf333379</textcolor>
 						<shadowcolor>cf333379</shadowcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(662).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="100" reversible="false" condition="Container(662).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="0" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -3992,7 +3987,7 @@
 						<font>homemenu3</font>
 						<textcolor>ffffffff</textcolor>
 						<align>left</align>
-						<label>[LOWERCASE]$INFO[ListItem.Label][/LOWERCASE]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(662).OnPrevious">Focus</animation>
 						<animation effect="fade" start="50" end="100" time="200" delay="50" reversible="false" condition="Container(662).OnNext">Focus</animation>
 						<animation effect="fade" start="100" end="27" time="0" delay="0" condition="Control.HasFocus(540)">Conditional</animation>
@@ -4005,16 +4000,15 @@
 					<content>
 					  <item id="1">
 						  <description>Fake Recently Added</description>
-						  <label></label>
-						  <onclick>-</onclick>
+						  <onclick>noop</onclick>
 					  </item>
 					</content>		
 				</control>		
 
-
-		
 			<!--  EXTRA -->
+			
 			<!--  ADDONS VOD -->
+			
 			<control type="list" id="654">
 				<posx>17</posx>
 				<posy>674</posy>
@@ -4259,12 +4253,13 @@
 				<effect type="slide" start="0,0" end="0,-10" time="150" />		
 			</animation>				
 		</control>
-<!-- recently added and featured -->	
+              <!-- recently added and featured -->	
 
-<control type="group">
+             <control type="group">
 				<visible>Skin.HasSetting(HomeRecentlyAdded) | Skin.HasSetting(HomeWatchlist)</visible>
 				
-<!-- recently added icon and text -->			
+               <!-- recently added icon and text -->	
+			   
 				  <control type="image">
 					  <posx>500r</posx>
 					  <posy>451r</posy>
@@ -4285,7 +4280,9 @@
 					  </animation>	
 					  <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14) | Container(540).HasFocus(3) | Container(540).HasFocus(4)</visible>			
 				  </control>	
+				  
 				  <!-- recently added movies text -->	
+				  
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4294,7 +4291,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added movies</label>
+					  <label>[LOWERCASE]$LOCALIZE[31692][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(14)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4317,7 +4314,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>in progress</label>
+					  <label>[LOWERCASE]$LOCALIZE[31019][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(14)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4331,7 +4328,9 @@
 					  <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14)</visible>	
 					  <visible>Skin.HasSetting(HomeWatchlistMovies)</visible>	
 				  </control>
+				  
 				  <!-- recently added episodes text -->	
+				  
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4340,7 +4339,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added episodes</label>
+					  <label>[LOWERCASE]$LOCALIZE[31693][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(3)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4354,7 +4353,9 @@
 					  <visible>Container(540).HasFocus(3)</visible>	
 					  <visible>Skin.HasSetting(HomeRecentlyAddedEpisodes)</visible>
 				  </control>
+				  
 				   <!-- watchlist episodes text -->	
+				   
 				  <control type="label">
 					  <posx>460r</posx>
 					  <posy>451r</posy>
@@ -4363,7 +4364,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>currently watching</label>
+					  <label>[LOWERCASE]$LOCALIZE[31694][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(3)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4387,7 +4388,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added albums</label>
+					  <label>[LOWERCASE]$LOCALIZE[31695][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(4)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4411,7 +4412,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>latest songs</label>
+					  <label>[LOWERCASE]$LOCALIZE[31720][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(4)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4434,7 +4435,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added add-ons</label>
+					  <label>[LOWERCASE]$LOCALIZE[31721][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(8)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4449,7 +4450,7 @@
 				  </control>
 				  -->
 				  
-<!-- featured icon and text -->			  
+                 <!-- featured icon and text -->			  
 				  <control type="image">
 					  <posx>15</posx>
 					  <posy>452r</posy>
@@ -4479,7 +4480,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured film</label>
+					  <label>[LOWERCASE]$LOCALIZE[31696][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(14)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4501,7 +4502,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured episode</label>
+					  <label>[LOWERCASE]$LOCALIZE[31697][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(3)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4523,7 +4524,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured song</label>
+					  <label>[LOWERCASE]$LOCALIZE[31698][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(4)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4545,7 +4546,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured add-on</label>
+					  <label>[LOWERCASE]$LOCALIZE[31699][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(4)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4613,7 +4614,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added movies</label>
+					  <label>[LOWERCASE]$LOCALIZE[31692][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(30)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4656,7 +4657,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured film</label>
+					  <label>[LOWERCASE]$LOCALIZE[31696][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(30)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4715,7 +4716,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added movies</label>
+					  <label>[LOWERCASE]$LOCALIZE[31692][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(31)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4758,7 +4759,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured film</label>
+					  <label>[LOWERCASE]$LOCALIZE[31696][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(31)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4818,7 +4819,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added movies</label>
+					  <label>[LOWERCASE]$LOCALIZE[31692][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(32)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4861,7 +4862,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured film</label>
+					  <label>[LOWERCASE]$LOCALIZE[31696][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(32)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4920,7 +4921,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added episodes</label>
+					  <label>[LOWERCASE]$LOCALIZE[31693][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(33)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -4963,7 +4964,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured episode</label>
+					  <label>[LOWERCASE]$LOCALIZE[31697][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(33)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5022,7 +5023,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added episodes</label>
+					  <label>[LOWERCASE]$LOCALIZE[31693][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(34)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5065,7 +5066,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured episode</label>
+					  <label>[LOWERCASE]$LOCALIZE[31697][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(34)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5124,7 +5125,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>recently added episodes</label>
+					  <label>[LOWERCASE]$LOCALIZE[31693][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(35)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5167,7 +5168,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>featured episode</label>
+					  <label>[LOWERCASE]$LOCALIZE[31697][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(35)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5187,7 +5188,7 @@
 	<posy>500</posy>
 	<width>320</width>
 	<height>180</height>
-	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
+	<texture background="true">$INFO[Container(1).ListItem.Property(Icon)]</texture>
 	<fadetime>600</fadetime>
 </control>
 	</control>	
@@ -5228,7 +5229,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>system info</label>
+					  <label>[LOWERCASE]$LOCALIZE[31675][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(3) | Container(540).HasFocus(4) | Container(540).HasFocus(7) | Container(540).HasFocus(9)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5277,7 +5278,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Date:[/COLOR] $INFO[System.Date][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31700][/COLOR] $INFO[System.Date][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5289,7 +5290,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Uptime:[/COLOR] $INFO[System.Uptime][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31701][/COLOR] $INFO[System.Uptime][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5301,7 +5302,7 @@
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
 				<visible>SubString(System.ScreenResolution,1920x1080)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Display Mode:[/COLOR] True 1080p[/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] $LOCALIZE[31703][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5313,7 +5314,7 @@
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
 				<visible>SubString(System.ScreenResolution,1280x720)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Display Mode:[/COLOR] True 720p[/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] $LOCALIZE[31704][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5325,7 +5326,7 @@
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
 				<visible>!SubString(System.ScreenResolution,1280x720) + !SubString(System.ScreenResolution,1920x1080)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Display Mode:[/COLOR] [COLOR red]NOT TRUE HD[/COLOR] $INFO[System.ScreenWidth]x$INFO[System.ScreenHeight][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] [COLOR red]$LOCALIZE[31705][/COLOR] $INFO[System.ScreenWidth]x$INFO[System.ScreenHeight][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5337,7 +5338,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]FPS:[/COLOR] $INFO[System.FPS][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31706][/COLOR] $INFO[System.FPS][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5349,7 +5350,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]CPU:[/COLOR] $INFO[System.CpuFrequency][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31707][/COLOR] $INFO[System.CpuFrequency][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5361,7 +5362,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Free RAM:[/COLOR] $INFO[System.FreeMemory][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31708][/COLOR] $INFO[System.FreeMemory][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5373,7 +5374,7 @@
 				<scroll>false</scroll>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]XBMC version:[/COLOR] $INFO[System.BuildVersion][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31709][/COLOR] $INFO[System.BuildVersion][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5385,7 +5386,7 @@
 				<textcolor>ff7777777</textcolor>
 				<wrapmultiline>true</wrapmultiline>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]Internet:[/COLOR][/LOWERCASE]</label>
+				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31710][/COLOR][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>90</posx>
@@ -5433,7 +5434,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>storage space info</label>
+					  <label>[LOWERCASE]$LOCALIZE[31711][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(3) | Container(540).HasFocus(4) | Container(540).HasFocus(7) | Container(540).HasFocus(9)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5481,7 +5482,7 @@
 				<font>homemenu3</font>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">• [LOWERCASE]$INFO[System.UsedSpacePercent][/LOWERCASE]</label>
+				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.UsedSpacePercent][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5492,7 +5493,7 @@
 				<font>homemenu3</font>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">• [LOWERCASE]$INFO[System.FreeSpacePercent][/LOWERCASE]</label>
+				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.FreeSpacePercent][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5503,7 +5504,7 @@
 				<font>homemenu3</font>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">• [LOWERCASE]$INFO[System.TotalSpace][/LOWERCASE]</label>
+				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.TotalSpace][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5514,7 +5515,7 @@
 				<font>homemenu3</font>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">• [LOWERCASE]$INFO[System.UsedSpace][/LOWERCASE]</label>
+				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.UsedSpace][/LOWERCASE]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -5525,7 +5526,7 @@
 				<font>homemenu3</font>
 				<textcolor>ff7777777</textcolor>
 				<visible>Container(540).HasFocus(9)</visible>
-				<label fallback="-">• [LOWERCASE]$INFO[System.FreeSpace][/LOWERCASE]</label>
+				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.FreeSpace][/LOWERCASE]</label>
 			</control>
 			</control>
 		</control>
@@ -5562,7 +5563,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>current weather</label>
+					  <label>[LOWERCASE]$LOCALIZE[31712][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(3) | Container(540).HasFocus(4) | Container(540).HasFocus(7) | Container(540).HasFocus(9)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5641,7 +5642,7 @@
 				<align>left</align>
 				<font>homemenu3</font>
 				<textcolor>ffffffff</textcolor>
-				<label fallback="-">[COLOR=BBE0E0E0]Feels Like:[/COLOR] $INFO[Window(Weather).Property(Current.FeelsLike)] $INFO[System.TemperatureUnits]</label>
+				<label fallback="-">[COLOR=BBE0E0E0]$LOCALIZE[31713][/COLOR] $INFO[Window(Weather).Property(Current.FeelsLike)] $INFO[System.TemperatureUnits]</label>
 			</control>
 			<control type="label">
 				<posx>220</posx>
@@ -5651,7 +5652,7 @@
 				<align>left</align>
 				<font>homemenu3</font>
 				<textcolor>ffffffff</textcolor>
-				<label fallback="-">[COLOR=BBE0E0E0]Humidity:[/COLOR] $INFO[Window(Weather).Property(Current.Humidity)]</label>
+				<label fallback="-">[COLOR=BBE0E0E0]$LOCALIZE[31714][/COLOR] $INFO[Window(Weather).Property(Current.Humidity)]</label>
 			</control>
 			</control>
 			
@@ -5685,7 +5686,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>future weather forcast</label>
+					  <label>[LOWERCASE]$LOCALIZE[31715][/LOWERCASE]</label>
 					  <animation type="Conditional" condition="Container(540).HasFocus(2) | Container(540).HasFocus(3) | Container(540).HasFocus(4) | Container(540).HasFocus(7) | Container(540).HasFocus(9)" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>
@@ -5752,7 +5753,7 @@
                     <font>recent2</font>
                     <textcolor>BBE0E0E0</textcolor>
                     <align>left</align>
-                    <label>Low: [COLOR=White]$INFO[Window(Weather).Property(Day0.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] High: [COLOR=White]$INFO[Window(Weather).Property(Day0.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
+                    <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day0.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day0.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
                     <posx>106</posx>
@@ -5819,7 +5820,7 @@
                     <font>recent2</font>
                     <textcolor>BBE0E0E0</textcolor>
                     <align>left</align>
-                    <label>Low: [COLOR=White]$INFO[Window(Weather).Property(Day1.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] High: [COLOR=White]$INFO[Window(Weather).Property(Day1.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
+                    <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day1.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day1.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
                     <posx>106</posx>
@@ -5886,7 +5887,7 @@
                     <font>recent2</font>
                     <textcolor>BBE0E0E0</textcolor>
                     <align>left</align>
-                    <label>Low: [COLOR=White]$INFO[Window(Weather).Property(Day2.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] High: [COLOR=White]$INFO[Window(Weather).Property(Day2.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
+                    <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day2.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day2.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
                     <posx>106</posx>
@@ -5953,7 +5954,7 @@
                     <font>recent2</font>
                     <textcolor>BBE0E0E0</textcolor>
                     <align>left</align>
-                    <label>Low: [COLOR=White]$INFO[Window(Weather).Property(Day3.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] High: [COLOR=White]$INFO[Window(Weather).Property(Day3.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
+                    <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day3.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day3.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
                     <posx>106</posx>
@@ -6067,7 +6068,7 @@
 					  <font>recent</font>
 					  <textcolor>ffa0a0a0</textcolor>
 					  <align>left</align>
-					  <label>now playing</label>
+					  <label>[LOWERCASE]$LOCALIZE[31718][/LOWERCASE]</label>
 					  <animation type="Visible" reversible="false">
 						  <effect type="fade" start="0" end="100" time="250" />
 					  </animation>	

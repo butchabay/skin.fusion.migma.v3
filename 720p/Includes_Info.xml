@@ -159,7 +159,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>page $INFO[Container().CurrentPage]/$INFO[Container().NumPages], $INFO[Container().NumItems] items</label>
+				<label>[LOWERCASE]$LOCALIZE[31758][/LOWERCASE] $INFO[Container().CurrentPage]/$INFO[Container().NumPages], $INFO[Container().NumItems] [LOWERCASE]$LOCALIZE[31759][/LOWERCASE]</label>
 				<visible>!Window.IsVisible(2003) + IsEmpty(Container().Totaltime)</visible>
 			</control>
 			<control type="label">
@@ -172,7 +172,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>page $INFO[Container().CurrentPage]/$INFO[Container().NumPages], $INFO[Container().NumItems] items, $INFO[Container().Totaltime] total time</label>
+				<label>[LOWERCASE]$LOCALIZE[31758][/LOWERCASE] $INFO[Container().CurrentPage]/$INFO[Container().NumPages], $INFO[Container().NumItems] items, $INFO[Container().Totaltime] [LOWERCASE]$LOCALIZE[31760][/LOWERCASE]</label>
 				<visible>!Window.IsVisible(2003) + !IsEmpty(Container().Totaltime)</visible>
 			</control>
 		</control>

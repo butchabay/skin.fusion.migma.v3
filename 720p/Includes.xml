@@ -744,7 +744,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• RATED G</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31722][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -758,7 +758,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• RATED PG</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31723][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -772,7 +772,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• RATED PG-13</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31724][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -786,7 +786,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• RATED R</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31725][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -800,7 +800,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• RATED NC-17</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31726][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -814,7 +814,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• UNRATED</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31727][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>
@@ -831,7 +831,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Rated G</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31722][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -845,7 +845,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Rated PG</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31723][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -859,7 +859,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Rated PG-13</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31724][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -873,7 +873,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Rated R</label>
+			    <label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31725][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -887,7 +887,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Rated NC-17</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31726][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -901,7 +901,7 @@
 				<scroll>true</scroll>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>• Unrated</label>
+				<label>$LOCALIZE[31618][UPPERCASE]$LOCALIZE[31727][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>
@@ -918,7 +918,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>G</label>
+				<label>[UPPERCASE]$LOCALIZE[31728][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -932,7 +932,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG</label>
+				<label>[UPPERCASE]$LOCALIZE[31729][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -946,7 +946,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG-13</label>
+				<label>[UPPERCASE]$LOCALIZE[31730][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -960,7 +960,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>R</label>
+				<label>[UPPERCASE]$LOCALIZE[31731][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -974,7 +974,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>NC-17</label>
+				<label>[UPPERCASE]$LOCALIZE[31732][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -988,7 +988,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>N/A</label>
+				<label>[UPPERCASE]$LOCALIZE[31733][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>
@@ -1005,7 +1005,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>G</label>
+				<label>[UPPERCASE]$LOCALIZE[31728][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -1019,7 +1019,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG</label>
+				<label>[UPPERCASE]$LOCALIZE[31729][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -1033,7 +1033,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG-13</label>
+				<label>[UPPERCASE]$LOCALIZE[31730][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -1047,7 +1047,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>R</label>
+				<label>[UPPERCASE]$LOCALIZE[31731][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -1061,7 +1061,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>NC-17</label>
+				<label>[UPPERCASE]$LOCALIZE[31732][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -1075,7 +1075,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>N/A</label>
+			    <label>[UPPERCASE]$LOCALIZE[31733][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>
@@ -1092,7 +1092,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>G</label>
+				<label>[UPPERCASE]$LOCALIZE[31728][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -1106,7 +1106,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG</label>
+			    <label>[UPPERCASE]$LOCALIZE[31729][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -1120,7 +1120,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG-13</label>
+				<label>[UPPERCASE]$LOCALIZE[31730][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -1134,7 +1134,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>R</label>
+				<label>[UPPERCASE]$LOCALIZE[31731][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -1148,7 +1148,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>NC-17</label>
+				<label>[UPPERCASE]$LOCALIZE[31732][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -1162,7 +1162,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>N/A</label>
+				<label>[UPPERCASE]$LOCALIZE[31733][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>
@@ -1179,7 +1179,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>G</label>
+				<label>[UPPERCASE]$LOCALIZE[31728][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated G) | substring(listitem.MPAA,USA:G)</visible>
 			</control>
 			<control type="label">
@@ -1193,7 +1193,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG</label>
+				<label>[UPPERCASE]$LOCALIZE[31729][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,Rated PG) | substring(listitem.MPAA,USA:PG)] + !substring(listitem.MPAA,13)</visible>
 			</control>
 			<control type="label">
@@ -1207,7 +1207,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>PG-13</label>
+				<label>[UPPERCASE]$LOCALIZE[31730][/UPPERCASE]</label>
 				<visible>[substring(listitem.MPAA,PG-13) | substring(listitem.MPAA,USA:PG-13)] + [!substring(listitem.MPAA,USA:R) + !substring(listitem.MPAA,rated R)]</visible>
 			</control>
 			<control type="label">
@@ -1221,7 +1221,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>R</label>
+				<label>[UPPERCASE]$LOCALIZE[31731][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,Rated R) | substring(listitem.MPAA,USA:R)</visible>
 			</control>
 			<control type="label">
@@ -1235,7 +1235,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>NC-17</label>
+				<label>[UPPERCASE]$LOCALIZE[31732][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,NC-17) | substring(listitem.MPAA,USA:NC-17)</visible>
 			</control>	
 			<control type="label">
@@ -1249,7 +1249,7 @@
 				<scroll>true</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>N/A</label>
+				<label>[UPPERCASE]$LOCALIZE[31733][/UPPERCASE]</label>
 				<visible>substring(listitem.MPAA,unrated) | substring(listitem.MPAA,USA:unrated)</visible>
 			</control>	
 	</include>			

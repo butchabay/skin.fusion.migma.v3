@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <strings>
 
-  <string id="31000"></string>
+  <string id="31000">By Title</string>
   <string id="31001">Recently Added</string>
   <string id="31002">Plugins</string> 
   
@@ -70,7 +70,7 @@
   <!-- Custom Settings -->
 					 
   <string id="31402">home</string>
-  <string id="31403">view</string>
+  <string id="31403">views</string>
   <string id="31404">osd</string>
   <string id="31405">extended</string>
   <string id="31406">custom</string>
@@ -212,7 +212,7 @@
   
   <!-- DialogFusionSettings9003 -->
   
-  <string id="31533">Migma Extras</string>
+  <string id="31533">Extras</string>
   <string id="31534">enable cdart</string>
   <string id="31535">use logos for tvshows and movies</string>
   <string id="31536">enable extrafanart for tvshows</string>
@@ -244,12 +244,12 @@
   <string id="31559">- set icon</string>
   <string id="31560">- set background image</string>
   <string id="31561">- set backgrounds folder</string>
-  <string id="31562">enable playlist 1</string>
-  <string id="31563">enable playlist 2</string>
-  <string id="31564">enable playlist 3</string>
-  <string id="31565">enable playlist 4</string>
-  <string id="31566">enable playlist 5</string>
-  <string id="31567">enable playlist 6</string>
+  <string id="31562">enable playlist 1 MOVIES</string>
+  <string id="31563">enable playlist 2 MOVIES</string>
+  <string id="31564">enable playlist 3 MOVIES</string>
+  <string id="31565">enable playlist 4 TV SHOWS / EPISODES</string>
+  <string id="31566">enable playlist 5 TV SHOWS / EPISODES</string>
+  <string id="31567">enable playlist 6 TV SHOWS / EPISODES</string>
   <string id="31568">enable playlist 7</string>
   <string id="31569">enable playlist 8</string>
   <string id="31570">enable playlist 9</string>
@@ -259,9 +259,9 @@
   <string id="31574">enable recently added playlist 1 - movies</string>
   <string id="31575">enable recently added playlist 2 - movies</string>
   <string id="31576">enable recently added playlist 3 - movies</string>
-  <string id="31577">enable recently added playlist 1 - tvshows</string>
-  <string id="31578">enable recently added playlist 2 - tvshows</string>
-  <string id="31579">enable recently added playlist 3 - tvshows</string>
+  <string id="31577">enable recently added playlist 1 - tv shows / episodes</string>
+  <string id="31578">enable recently added playlist 2 - tv shows / episodes</string>
+  <string id="31579">enable recently added playlist 3 - tv shows / episodes</string>
   
    <!-- Custom Games Info -->
   
@@ -354,6 +354,150 @@
   <string id="31648">Watched Episodes</string>
   <string id="31649">Watched Episodes</string>
   <string id="31650">Minutes</string>
+  <string id="31651">Directed by</string>
+  <string id="31652">Rate</string>
+  <string id="31653">Aired</string>
+  <string id="31654">VOLUME</string>
+  <string id="31655"></string>
+  <string id="31656"></string>
+  <string id="31657"></string>
   
+  <!-- Home.xml -->
+  
+  <string id="31658">Programs</string>
+  <string id="31659">Add-Ons</string>
+  <string id="31660">Power</string>
+  <string id="31661">Movies</string>
+  <string id="31662">TV Shows</string>
+  <string id="31663">On Demand</string>
+  <string id="31664">Games</string>
+  <string id="31665">Play Disc</string>
+  <string id="31666">Files</string>
+  <string id="31667">Playlists</string>
+  <string id="31668">Online</string>
+  <string id="31669">Settings</string>
+  <string id="31670">Top 100</string>
+  <string id="31671">Recently played</string>
+  <string id="31672">Skin Settings</string>
+  <string id="31673">Favourites</string>
+  <string id="31674">File Manager</string>
+  <string id="31675">System Info</string>
+  <string id="31676">Eject Disc</string>
+  <string id="31677">Logoff</string>
+  <string id="31678">Refresh Data</string>
+  <string id="31679">Next Location</string>
+  <string id="31680">Update Add-Ons</string>
+  <string id="31681">Update Repos</string>
+  <string id="31682">1080p</string>
+  <string id="31683">720p</string>
+  <string id="31684">Widescreen</string>
+  <string id="31685">Surround</string>
+  <string id="31686">Exit</string>
+  <string id="31687">Shutdown</string>
+  <string id="31688">Suspend</string>
+  <string id="31689">Shutdown Timer</string>
+  <string id="31690">Cancel Timer</string>
+  <string id="31691">Enter Master Mode</string>
+  <string id="31692">Recently Added Movies</string>
+  <string id="31693">Recently Added Episodes</string>
+  <string id="31694">Currently Watching</string>
+  <string id="31695">Recently Added Albums</string>
+  <string id="31696">Featured Movie</string>
+  <string id="31697">Featured Episode</string>
+  <string id="31698">Featured Album</string>
+  <string id="31699">Featured Add-On</string>
+  <string id="31700">Date:</string>
+  <string id="31701">Uptime:</string>
+  <string id="31702">Display Mode:</string>
+  <string id="31703">True 1080p</string>
+  <string id="31704">True 720p</string>
+  <string id="31705">NOT TRUE HD</string>
+  <string id="31706">FPS:</string>
+  <string id="31707">CPU:</string>
+  <string id="31708">Free RAM:</string>
+  <string id="31709">XBMC Version:</string>
+  <string id="31710">Internet:</string>
+  <string id="31711">Storage Space Info</string>
+  <string id="31712">Current Weather</string>
+  <string id="31713">Feels Like:</string>
+  <string id="31714">Humidity:</string>
+  <string id="31715">Future Weather Forcast</string>
+  <string id="31716">Low:</string>
+  <string id="31717">High:</string>
+  <string id="31718">now playing</string>
+  <string id="31719">Internet:</string>
+  <string id="31720">Latest Songs</string>
+  <string id="31721">Recently Added Add-Ons</string>
+  
+  <!-- Includes.xml -->
+  
+  <string id="31722">RATED G</string>
+  <string id="31723">RATED PG</string>
+  <string id="31724">RATED PG-13</string>
+  <string id="31725">RATED R</string>
+  <string id="31726">RATED NC-17</string>
+  <string id="31727">UNRATED</string>
+  <string id="31728">G</string>
+  <string id="31729">PG</string>
+  <string id="31730">PG-13</string>
+  <string id="31731">R</string>
+  <string id="31732">NC-17</string>
+  <string id="31733">N/A</string>
+  
+  
+  <!-- Includes_Dropdownbar.xml -->
+  
+  <string id="31734">Sort: By</string>
+  <string id="31735">View:</string>
+  <string id="31736">Labels ON</string>
+  <string id="31737">Labels OFF</string>
+  <string id="31738">Info</string>
+  <string id="31739">Fanart - OFF</string>
+  <string id="31740">Fanart - Light</string>
+  <string id="31741">Fanart - Medium</string>
+  <string id="31742">Fanart - Heavy</string>
+  <string id="31743">Year - ON</string>
+  <string id="31744">Year - OFF</string>
+  <string id="31745">MPAA - ON</string>
+  <string id="31746">MPAA - OFF</string>
+  <string id="31747">Duration - ON</string>
+  <string id="31748">Duaration - OFF</string>
+  <string id="31749">Media Flags - ON</string>
+  <string id="31750">Media Flags - OFF</string>
+  <string id="31751">Media Flags - HD Only</string>
+  <string id="31752">Watched Icons - ON</string>
+  <string id="31753">Watched Icons - OFF</string>
+  <string id="31754">Rating - ON</string>
+  <string id="31755">Rating - OFF</string>
+  <string id="31756">*</string>
+  <string id="31757">ON</string>
+  
+  <!-- Includes_Info.xml -->
+  
+  <string id="31758">Page</string>
+  <string id="31759">Items</string>
+  <string id="31760">Total Time</string>
+  
+  <!-- Includes_Nav.xml -->
+  
+  <string id="31761">About XBMC</string>
+  <string id="31762">Networks</string>
+  <string id="31763">Add-On Settings</string>
+  <string id="31764">Add Source</string>
+  <string id="31765"> - Info</string>
+  <string id="31766">Fusion</string>
+  <string id="31767">Extras</string>
+  
+   <!-- Includes_Nextairedinfo.xml -->
+  
+  <string id="31768">Latest Episode:</string>
+  <string id="31769">Next Episode:</string>
+  <string id="31770"></string>
+  <string id="31771"></string>
+  <string id="31772"></string>
+  <string id="31773"></string>
+  <string id="31774"></string>
+  <string id="31775"></string>
+  <string id="31776"></string>
   
 </strings>

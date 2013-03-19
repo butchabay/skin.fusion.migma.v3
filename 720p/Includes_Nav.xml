@@ -186,7 +186,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]Add-Ons[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31528][/UPPERCASE]</label>
 		<visible>Window.IsVisible(40)</visible>	
 		<include>BreadCrumb1</include>
 	</control>
@@ -200,7 +200,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]File Manager[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31674][/UPPERCASE]</label>
 		<visible>Window.IsVisible(3)</visible>	
 		<include>BreadCrumb1</include>
 	</control>	
@@ -228,7 +228,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]ABOUT XBMC[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31761][/UPPERCASE]</label>
 		<visible>Window.IsVisible(9505)</visible>	
 		<include>BreadCrumb1</include>
 	</control>	
@@ -242,7 +242,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]ADD-ONS[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31528][/UPPERCASE]</label>
 		<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -397,28 +397,11 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]NETWORKS[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31762][/UPPERCASE]</label>
 		<visible>!Window.IsVisible(2003) + !SubString(Container.FolderPath,episodesinprogress.xsp) + Substring(Container.FolderPath,videodb://2/5,Left)</visible>
 		<scroll>false</scroll>
 		<include>BreadCrumb1</include>
 	</control>
-	<!--
-	<control type="label">
-		<description>Netflix</description>
-		<posx>0</posx>
-		<posy>0</posy>
-		<width min="29" max="460">auto</width>
-		<height>53</height>	
-		<font>breadcrumb</font>
-		<align>left</align>
-		<aligny>center</aligny>
-		<textcolor>time</textcolor>
-		<label>[UPPERCASE]Netflix[/UPPERCASE]</label>
-		<visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
-		<visible>!Window.IsVisible(2003)</visible>
-		<include>BreadCrumb2</include>
-	</control>
-	-->
 	<control type="label">
 		<description>Add-On Settings</description>
 		<posx>0</posx>
@@ -429,7 +412,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]Add-On Settings[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31763][/UPPERCASE]</label>
 		<visible>Window.IsVisible(10140)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -443,7 +426,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]Add Source[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31764][/UPPERCASE]</label>
 		<visible>Window.IsVisible(129)</visible>
 		<include>BreadCrumb1</include>
 	</control>	
@@ -551,7 +534,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE] - Info[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31765][/UPPERCASE]</label>
 		<animation type="Conditional" condition="Window.IsVisible(2003)" reversible="false">
 		<effect type="fade" start="100" end="0" time="200" delay="0" />
 		</animation>
@@ -570,7 +553,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]fusion[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[31766][/UPPERCASE]</label>
 		<visible>Window.IsVisible(56) | Window.IsVisible(9000) | Window.IsVisible(9001) | Window.IsVisible(9002) | Window.IsVisible(9003)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -584,7 +567,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE] home[/UPPERCASE]</label>
+		<label>[UPPERCASE] $LOCALIZE[31402][/UPPERCASE]</label>
 		<visible>Window.IsVisible(9000)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -598,7 +581,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE] views[/UPPERCASE]</label>
+		<label>[UPPERCASE] $LOCALIZE[31403][/UPPERCASE]</label>
 		<visible>Window.IsVisible(9001)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -612,7 +595,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE] osd[/UPPERCASE]</label>
+		<label>[UPPERCASE] $LOCALIZE[31404][/UPPERCASE]</label>
 		<visible>Window.IsVisible(9002)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -626,7 +609,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE] extras[/UPPERCASE]</label>
+		<label>[UPPERCASE] $LOCALIZE[31767][/UPPERCASE]</label>
 		<visible>Window.IsVisible(9003)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -640,7 +623,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]Profiles[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[13200][/UPPERCASE]</label>
 		<visible>Window.IsVisible(34)</visible>
 		<include>BreadCrumb1</include>
 	</control>
@@ -654,7 +637,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>[UPPERCASE]INFORMATION[/UPPERCASE]</label>
+		<label>[UPPERCASE]$LOCALIZE[19033][/UPPERCASE]</label>
 		<visible>Window.IsVisible(2003)</visible>
 		<include>BreadCrumb1</include>
 	</control>	
@@ -888,7 +871,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>$INFO[System.Time(hh:mm)][COLOR ampm]AM[/COLOR]</label>
+		<label>$INFO[System.Time(hh:mm)][COLOR ampm]$LOCALIZE[378][/COLOR]</label>
 		<visible>substring(system.time,AM,right)</visible>
 	</control>
 		
@@ -900,45 +883,12 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<textcolor>time</textcolor>
-		<label>$INFO[System.Time(hh:mm)][COLOR ampm]PM[/COLOR]</label>
+		<label>$INFO[System.Time(hh:mm)][COLOR ampm]$LOCALIZE[379][/COLOR]</label>
 		<visible>substring(system.time,PM,right)</visible>
 	</control>
+	
 <!-- End Time-->
 
-<!--Task Bar (Weather, Etc)-->
-<!--
-<control type="group">
-	<visible>!IntegerGreaterThan(System.BatteryLevel,25) + !SubString(System.BatteryLevel,0)</visible>
-	<control type="image">
-		<posx>270r</posx>
-		<posy>0</posy>
-		<width>144</width>
-		<height>53</height>
-		<aspectratio>stretch</aspectratio>
-		<texture>nav/taskbg.png</texture>
-		<visible>!Skin.HasSetting(BlackNavBar)</visible>
-	</control> 
-	<control type="image">
-		<posx>270r</posx>
-		<posy>0</posy>
-		<width>144</width>
-		<height>53</height>
-		<aspectratio>stretch</aspectratio>
-		<texture>nav/taskbgalt.png</texture>
-		<visible>Skin.HasSetting(BlackNavBar)</visible>
-	</control>
-	<control type="image" id="200">
-		<posx>245r</posx>
-		<posy>-15</posy>
-		<width>94</width>
-		<aspectratio>keep</aspectratio>
-		<texture>nav/lowbattery.png</texture>
-		<animation effect="fade" start="50" end="100" time="400" delay="150" pulse="true" condition="Control.IsVisible(200)">Conditional</animation>
-	</control>
-		<animation effect="fade" start="0" end="100" time="450" delay="150" condition="Window.IsVisible(2600)">WindowClose</animation>
-		<animation effect="fade" start="100" end="0" time="300" condition="Window.IsVisible(2600)">WindowOpen</animation>
-</control>
--->
 <control type="group">
 	<visible>System.HasNetwork + Weather.IsFetched</visible>
 	<control type="image">
